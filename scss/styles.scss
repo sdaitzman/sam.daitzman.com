@@ -1,17 +1,50 @@
+$background-color: rgb(35, 35, 35);
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fade-in-bounce {
+	0% {
+		opacity: 0;
+		transform: translateY(-100px);
+	}
+	90% {
+		opacity: 0;
+		transform: translateY(-100px);
+	}
+	95% {
+		transform: translateY(30px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
 * {
 	box-sizing: boder-box;
 }
 
 html, body {
-	background: rgb(35, 35, 35);
+	background: $background-color;
 	padding: 0;
 	margin: 0;
 	width: 100%;
+	font-family: Oxygen, "Helvetica Neue", sans-serif;
+	color: white;
+}
+
+.done * {
+	transition: all 0.3s ease;
 }
 
 p {
-	font-family: Oxygen, "Helvetica Neue", sans-serif;
-	color: white;
 	font-size: 42px;
 	margin: 30px;
 	@media (max-width: 600px) {
@@ -25,10 +58,11 @@ p {
 .body {
 	margin: auto;
 	text-align: center;
+	animation: fade-in 0.5s ease-in-out;
 }
 
 .title  {
-	width: 100%;
+	width: 50%;
 	text-align: center;
 	color: rgb(250, 250, 250);
 	font-size: 120px;
@@ -42,15 +76,32 @@ p {
 	}
 }
 
+.about-me {
+	animation: fade-in-bounce 1s ease-in-out;
+}
+
 .profiles {
 	width: 80%;
 	margin: auto;
+	animation: fade-in-bounce 2s ease-in-out;
 }
 
 .profile {
-	width: 120px;
-	height: 120px;
+	width: 180px;
+	height: 180px;
 	border-radius: 5px;
 	padding: 10px;
 	margin: 0;
+	@media (max-width: 800px) {
+		width: 120px;
+		height: 120px;
+	}
+	&:hover {
+		transform: scale(1.05);
+	}
+}
+
+::selection {
+	background: white;
+	color: black;
 }
