@@ -14,11 +14,11 @@ $background-color: rgb(35, 35, 35);
 		opacity: 0;
 		transform: translateY(-100px);
 	}
-	90% {
+	85% {
 		opacity: 0;
 		transform: translateY(-100px);
 	}
-	95% {
+	90% {
 		transform: translateY(30px);
 	}
 	100% {
@@ -77,13 +77,13 @@ p {
 }
 
 .about-me {
-	animation: fade-in-bounce 1s ease-in-out;
+	animation: fade-in-bounce 2s ease-in-out;
 }
 
 .profiles {
 	width: 80%;
 	margin: auto;
-	animation: fade-in-bounce 2s ease-in-out;
+	animation: fade-in-bounce 4s ease-in-out;
 }
 
 .profile {
