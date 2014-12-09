@@ -1,0 +1,1 @@
+$('.things-i-am').typer();
