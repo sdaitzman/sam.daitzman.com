@@ -967,6 +967,50 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/codepen.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18786,
+		"inputAbbreviatedPath": "\/img\/codepen.png",
+		"outputAbbreviatedPath": "\/img\/codepen.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/github.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4044,
+		"inputAbbreviatedPath": "\/img\/github.png",
+		"outputAbbreviatedPath": "\/img\/github.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/nuvu.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18120,
+		"inputAbbreviatedPath": "\/img\/nuvu.png",
+		"outputAbbreviatedPath": "\/img\/nuvu.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/octocat.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13073,
+		"inputAbbreviatedPath": "\/img\/octocat.png",
+		"outputAbbreviatedPath": "\/img\/octocat.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
