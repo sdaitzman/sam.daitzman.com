@@ -1,12 +1,16 @@
+$(document).ready(function() {
+
 $.typer.options = {
-	highlightSpeed    : 50,
+	highlightSpeed    : 100,
 	typeSpeed         : 200,
 	clearDelay        : 500,
 	typeDelay         : 200,
-	clearOnHighlight  : true,
+	clearOnHighlight  : false,
 	typerDataAttr     : 'data-typer-targets',
-	typerInterval     : 5000
+	typerInterval     : 3000
 }
 $('[data-typer-targets]').typer();
 
 $('body').toggleClass('done');
+
+});
