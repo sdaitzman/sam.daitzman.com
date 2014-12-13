@@ -1,0 +1,950 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fade-",
+				"fade-in-bounce"
+			],
+			[
+				"ease",
+				"ease-in-out"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"type",
+				"typer"
+			],
+			[
+				"rco",
+				"rconStr"
+			],
+			[
+				"Fanc",
+				"fancyhands"
+			],
+			[
+				"digital",
+				"digitalRead	Arduino digitalRead"
+			],
+			[
+				"dis",
+				"distance1"
+			],
+			[
+				"dist",
+				"distance3"
+			],
+			[
+				"di",
+				"distance2"
+			],
+			[
+				"distan",
+				"distance3"
+			],
+			[
+				"play",
+				"playcomplete"
+			],
+			[
+				"prin",
+				"println"
+			],
+			[
+				"max",
+				"maxDistanceSonar"
+			],
+			[
+				"track1",
+				"track1length"
+			],
+			[
+				"stop",
+				"stopLedAt"
+			],
+			[
+				"teach",
+				"theaterChaseRainbow"
+			],
+			[
+				"ul",
+				"ultraSonicDist"
+			],
+			[
+				"ech",
+				"echoPin"
+			],
+			[
+				"digia",
+				"digitalWrite	Arduino digitalWrite"
+			],
+			[
+				"light",
+				"lightValue"
+			],
+			[
+				"click",
+				"clickInput"
+			],
+			[
+				"key",
+				"keyCode"
+			],
+			[
+				"fswrf",
+				"fs.writeFile(path, data, encoding_, callback);"
+			],
+			[
+				"readFile",
+				"fs.readFile(path, encoding_);"
+			],
+			[
+				"read",
+				"readline.Interface(input, output, completer);"
+			],
+			[
+				"file",
+				"fileSplit"
+			],
+			[
+				"cno",
+				"console.log(message);"
+			],
+			[
+				"log",
+				"console.log(message);"
+			],
+			[
+				"console",
+				"console.log(message);"
+			],
+			[
+				"normal",
+				"fish_color_normal"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"backgroun",
+				"background-repeat"
+			],
+			[
+				"list-style-",
+				"list-style-type"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"unsu",
+				"unsupportedMessage"
+			],
+			[
+				"detect",
+				"detectedOS"
+			],
+			[
+				"pull",
+				"pullOrPush"
+			],
+			[
+				"dete",
+				"detectOS"
+			],
+			[
+				"detec",
+				"detectedOS"
+			],
+			[
+				"detected",
+				"detectedOS"
+			],
+			[
+				"det",
+				"detectedOS"
+			],
+			[
+				"de",
+				"detectedOS"
+			],
+			[
+				"c",
+				"fish_color_cwd_root"
+			],
+			[
+				"set",
+				"set_color"
+			],
+			[
+				"se",
+				"set_color"
+			],
+			[
+				"fish_color_",
+				"fish_color_cwd"
+			],
+			[
+				"print",
+				"printRed"
+			],
+			[
+				"digit",
+				"digitalWrite	Arduino digitalWrite"
+			],
+			[
+				"ra",
+				"rawConductivity"
+			],
+			[
+				"list-",
+				"list-style"
+			],
+			[
+				"foor",
+				"footer-height"
+			],
+			[
+				"foot",
+				"footer-height"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"border-lef",
+				"border-left-color"
+			],
+			[
+				"border",
+				"border-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2464,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: If Else"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"package control: ",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"theme",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"package control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"SublimeREPL: ",
+				"SublimeREPL: PowerShell"
+			],
+			[
+				"repl",
+				"SublimeREPL: Shell"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"format",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"tag",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"list pac",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 529.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler( ))); open( os.path.join( ipp, pf), 'wb' ).write( urllib2.urlopen( 'http://sublime.wbond.net/' +pf.replace( ' ','%20' )).read()); print( 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/samuel/Documents/projects/simple-landing-page"
+	],
+	"file_history":
+	[
+		"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/samuel/Documents/projects/simple-landing-page/scss/.sass-cache/40c3dd05e7a99253770a3506412d8634bb7f4559/styles.scssc",
+		"/Users/samuel/Downloads/galaxy-master/Gruntfile.js",
+		"/Users/samuel/Desktop/stringStuff.js",
+		"/Users/samuel/Downloads/node-rcon-master/examples/stdio.js",
+		"/Applications/Sublime Text.app/Contents/MacOS/sublime.py",
+		"/Users/samuel/Downloads/node-rcon-master/node-rcon.js",
+		"/Users/samuel/Downloads/node-rcon-master/examples/minecraft.js",
+		"/Users/samuel/Documents/projects/SONOS-web/index.js",
+		"/Users/samuel/Downloads/node-sonos-master/examples/search.js",
+		"/Users/samuel/Documents/projects/fancyHands/my_fh_app.py",
+		"/Users/samuel/Documents/Arduino/sketch/sketch.ino",
+		"/Users/samuel/Documents/projects/learnyounode/index.coffee",
+		"/Users/samuel/Documents/Arduino/trippyGoggles/trippyGoggles.ino",
+		"/Users/samuel/Documents/Arduino/servoTest/servoTest.ino",
+		"/Volumes/ESP/EFI/BOOT/refind.conf-sample",
+		"/Volumes/ESP/EFI/BOOT/refind.conf",
+		"/Users/samuel/Documents/projects/learnyounode/index.js",
+		"/Users/samuel/.config/fish/functions/fish_right_prompt.fish",
+		"/Users/samuel/.config/fish/functions/fish_right_prompt.fish.bak",
+		"/Users/samuel/Desktop/playingWithCylon/node_modules/cylon-firmata/node_modules/firmata/node_modules/serialport/node_modules/node-pre-gyp/node_modules/request/node_modules/form-data/node_modules/combined-stream/test/integration/test-empty-string.js",
+		"/Users/samuel/Desktop/playingWithCylon/index.js",
+		"/Users/samuel/Desktop/file.java",
+		"/Users/samuel/Documents/projects/my-angus-app/angus.config.js",
+		"/Users/samuel/Documents/projects/my-angus-app/src/index.html",
+		"/Users/samuel/Documents/projects/my-angus-app/.editorconfig",
+		"/Users/samuel/.config/fish/functions/fish_prompt.fish",
+		"/tmp/fish_funced_720_20405.fish",
+		"/Users/samuel/Library/Application Support/Übersicht/widgets/memory.widget/memory.coffee",
+		"/Users/samuel/Library/Application Support/Übersicht/widgets/timemachine.widget/index.coffee",
+		"/Users/samuel/Library/Application Support/Übersicht/widgets/Playbox.widget/index.coffee",
+		"/Users/samuel/Library/Application Support/Übersicht/widgets/memory.coffee",
+		"/Users/samuel/Downloads/memory-bar.widget/index.coffee",
+		"/Volumes/EFI/EFI/BOOT/refind.conf",
+		"/Users/samuel/Documents/Arduino/libraries/NewPing/examples/NewPingExample/NewPingExample.ino",
+		"/Users/samuel/Documents/Arduino/wavShieldDiagThing/wavShieldDiagThing.ino",
+		"/Users/samuel/Documents/Arduino/testthing/testthing.ino",
+		"/Users/samuel/Documents/Arduino/libraries/WaveHC/examples/daphc/daphc.pde",
+		"/tmp/fish_funced_25370_19653.fish",
+		"/tmp/fish_funced_24981_2314.fish",
+		"/Users/samuel/Documents/Arduino/libraries/SFEMP3Shield/Examples/MP3ButtonPlayer2/MP3ButtonPlayer2.ino",
+		"/Volumes/nuvustudent/2014 Fall/!Session 1/Urban hacks/urban guitar/harpvardBridge/harpvardBridge.ino",
+		"/Users/samuel/Documents/Arduino/mp3Shield/mp3Shield.ino",
+		"/Users/samuel/bin/logout.fish",
+		"/Users/samuel/Desktop/fish-sync/config.fish",
+		"/Users/samuel/Desktop/harpvardBridge/harpvardBridge.ino",
+		"/Users/samuel/Documents/Arduino/stringTouch/stringTouch.ino",
+		"/Users/samuel/.config/fish/functions/leapd.fish",
+		"/Users/samuel/Documents/Arduino/test/test.ino",
+		"/Users/samuel/Documents/Arduino/libraries/Adafruit_NeoPixel/examples/strandtest/strandtest.ino",
+		"/Users/samuel/.config/fish/functions/cl.fish",
+		"/Volumes/nuvustudent/2014 Fall/session 1/Urban hacks/urban guitar/guitarCode/guitarCode.ino",
+		"/Users/samuel/Documents/Arduino/newPing/newPing.ino",
+		"/Users/samuel/.config/fish/config.fish",
+		"/Users/samuel/Downloads/node-webkit-v0.10.4-osx-x64/js/main.js",
+		"/Users/samuel/Downloads/node-webkit-v0.10.4-osx-x64/js/index.js",
+		"/Users/samuel/Downloads/node-webkit-v0.10.4-osx-x64/package.json",
+		"/Users/samuel/Desktop/nuvulaser/index.coffee",
+		"/Users/samuel/Desktop/index.coffee",
+		"/Users/samuel/Documents/projects/elementary-os-install-utility/HUMANS.txt",
+		"/Users/samuel/.zshrc",
+		"/Users/samuel/Documents/projects/elementary-os-install-utility/HUMANS.md",
+		"/Users/samuel/Downloads/refind-bin-0.8.3/install.sh",
+		"/Users/samuel/Downloads/refind-bin-0.8.3/mvrefind.sh",
+		"/Users/samuel/.config/fish/functions/fish_greeting.fish",
+		"/Users/samuel/Desktop/learnyounode/index.js",
+		"/Users/samuel/Desktop/index.js",
+		"/EFI/refind/refind.conf",
+		"/EFI/refind/refind.conf-sample",
+		"/EFI/refind/icons-custom/myconvert.sh",
+		"/EFI/refind/refind.conf.bak",
+		"/Users/samuel/Desktop/learnyounode/myFirstIO.js",
+		"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/Node.sublime-build",
+		"/Users/samuel/Library/Messages/chat.db",
+		"/Users/samuel/blog/public/prism/prism.js",
+		"/Users/samuel/blog/public/prism/prism.css",
+		"/Users/samuel/blog/page.md",
+		"/Users/samuel/blog/_dist/css/styles.css",
+		"/Users/samuel/blog/_sass/_other-stuff.scss",
+		"/Users/samuel/blog/_tpl/layouts/layout.html",
+		"/Users/samuel/blog/TechyFile.js",
+		"/Users/samuel/blog/_tpl/layouts/custom-layout.html",
+		"/Users/samuel/blog/Techy.md",
+		"/Users/samuel/.phoenix.js",
+		"/Users/samuel/Dropbox/sdaitzman.tumblr.com/scss/styles.scss",
+		"/Users/samuel/vagrant/playing-with-techy/bootstrap.sh",
+		"/Users/samuel/Dropbox/sdaitzman.tumblr.com/scss/_bootstrap.scss",
+		"/Users/samuel/Dropbox/sdaitzman.tumblr.com/scss/_prism.scss",
+		"/Users/samuel/Downloads/monokai-light-master/Monokai Light.tmTheme",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/bower_components/bootstrap-sass/LICENSE",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/body.min.css",
+		"/Users/samuel/Desktop/DogePill/dogePillNoBitlash/dogePillNoBitlash.ino",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_input-groups.scss",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/sketch/link arrow.sketch/version",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/bower_components/bootstrap-sass/js/popover.js",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/prism.js",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/bower_components/bootstrap-sass/js/button.js",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/styles/body.scss",
+		"/Users/samuel/Desktop/blurred menu bar test/index.html",
+		"/Users/samuel/Desktop/blurred menu bar test/scss/style.scss",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/prism-ck.js",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/styles/.sass-cache/7c428d48e27b2be5cbb195a5cbb9b486da993f8d/_progress-bars.scssc",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/styles/.sass-cache/7c428d48e27b2be5cbb195a5cbb9b486da993f8d/_responsive-utilities.scssc",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/styles/.sass-cache/7c428d48e27b2be5cbb195a5cbb9b486da993f8d/_scaffolding.scssc",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/styles/.sass-cache/7c428d48e27b2be5cbb195a5cbb9b486da993f8d/_tables.scssc",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/styles/.sass-cache/7c428d48e27b2be5cbb195a5cbb9b486da993f8d/_thumbnails.scssc",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/styles/.sass-cache/7c428d48e27b2be5cbb195a5cbb9b486da993f8d/_tooltip.scssc",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/styles/.sass-cache/7c428d48e27b2be5cbb195a5cbb9b486da993f8d/_type.scssc",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/styles/.sass-cache/7c428d48e27b2be5cbb195a5cbb9b486da993f8d/_utilities.scssc",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/styles/.sass-cache/7c428d48e27b2be5cbb195a5cbb9b486da993f8d/_variables.scssc",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/styles/.sass-cache/7c428d48e27b2be5cbb195a5cbb9b486da993f8d/_wells.scssc",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/styles/.sass-cache/bfe41a2c6feb499c351019dab682e2aafa3283d8/_bootstrap.scssc",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/styles/.sass-cache/bfe41a2c6feb499c351019dab682e2aafa3283d8/_prism.scssc",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/styles/.sass-cache/bfe41a2c6feb499c351019dab682e2aafa3283d8/_variables.scssc",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/styles/.sass-cache/de27c15c1be5558d197c390f50cc99580f1d7b73/_bootstrap.scssc",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/styles/.sass-cache/de27c15c1be5558d197c390f50cc99580f1d7b73/_prism.scssc",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/styles/.sass-cache/de27c15c1be5558d197c390f50cc99580f1d7b73/_variables.scssc",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/styles/.sass-cache/de27c15c1be5558d197c390f50cc99580f1d7b73/bootstrap.scssc",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/styles/_bootstrap.scss",
+		"/Users/samuel/Dropbox/llamaswill.tumblr.com/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss",
+		"/Users/samuel/Downloads/tumblrthemr-1.1/index.html",
+		"/Users/samuel/Desktop/styles.css",
+		"/Users/samuel/Desktop/serial-web-terminal/index.js",
+		"/Users/samuel/Dropbox/sdaitzman.tumblr.com hosting/scripts/scripts.js",
+		"/Users/samuel/Desktop/js.js",
+		"/Users/samuel/Dropbox/sdaitzman.tumblr.com hosting/body.min.css",
+		"/Users/samuel/Dropbox/sdaitzman.tumblr.com hosting/styles/_links.scss",
+		"/Users/samuel/Dropbox/sdaitzman.tumblr.com hosting/styles/head.scss"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"rgb(35, 35, 35)",
+			"pedium",
+			"opacity",
+			"selection",
+			"distance3",
+			"wave.",
+			"root",
+			"version",
+			"MP3player",
+			"showtools",
+			"png",
+			"banner",
+			"strip",
+			"lightPin",
+			"/Users/Samuel/Li",
+			"mountosxesp",
+			"refind_x64",
+			"map",
+			"fs0",
+			"#posts",
+			"padding",
+			"more_notes",
+			"blockquote",
+			"baud",
+			"background:",
+			"invis",
+			"plugin",
+			"Prism.",
+			"line-numbers",
+			"language-",
+			"//",
+			"nav",
+			"black",
+			"le:hover",
+			"open",
+			"box-shadow",
+			"footer",
+			"57600",
+			"title",
+			"left",
+			"a{color:#4675ad}a:hover,a :focus{color:#375c89}a:active{color:white;background:#375c89;text-decoration:none}body{padding-top:65px}html,body{height:100%;width:100%}@media (max-width: 900px){.container{padding:0}}\n.navbar{margin:0;border:none;-webkit-box-shadow:0 2px 3px #f6f6f6;box-shadow:0 2px 3px #f6f6f6}.dropdown-menu{border:none}.dropdown-menu li a:hover{background:#f6f6f6;color:black}::-moz-selection{background:#d2deed}::selection{background:#d2deed}.search-box{cursor:text;border:1px solid #c3c3c3}.search-box:focus{-webkit-box-shadow:0 0 4px #aaa;box-shadow:0 0 4px #aaa;outline:none;border:1px solid #b4b4b4}.title:hover{color:black}.post{margin-bottom:30px;height:default}.post:not(.footer){border-bottom:1px dotted gray}.post:not(.quote) h3,.post:not(.quote) blockquote{margin:0;padding:0}.post:not(.quote) blockquote{padding-left:6px}.post:not(.quote) blockquote p{font-size:16px;padding:0;margin:0}.post img,.post video,.post object,.post embed{max-width:100%;height:auto;margin:10px}.post iframe{height:default}@media (max-width: 900px){.post{padding:5px 30px}}\n.note:not(.more_notes_link_container){padding:4px;border-radius:4px;-webkit-box-shadow:0 0 3px 4px rgba(221,221,221,0.9);box-shadow:0 0 3px 4px rgba(221,221,221,0.9);margin:10px}.note:not(.more_notes_link_container):after{content:\"\\a\"}.more_notes_link{text-align:center;width:100%;font-size:33px}.tags{padding:0;margin:20px;float:right}.tags li{display:inline-block;margin:5px}.tags .tag{font-size:15px}.timestamp{margin:5px}.footer{padding:10px;background:#f6f6f6;width:100%;float:left}.footer:target{height:100%}#ask_form{height:255px}#submit_form{height:413px}#ask_form,#submit_form{width:95%}.warning{margin-bottom:4px}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;text-indent:0px}#posts{padding-left:0px;margin:20px}@media (max-width: 900px){#posts{margin:0;max-width:100%}}\ncode[class*=\"language-\"],pre[class*=\"language-\"]{color:#f8f8f2;text-shadow:0 1px rgba(0,0,0,0.3);font-family:Consolas, Monaco, 'Andale Mono', monospace;direction:ltr;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=\"language-\"]{padding:1em;margin:.5em 0;overflow:auto;border-radius:0.3em}:not(pre)>code[class*=\"language-\"],pre[class*=\"language-\"]{background:#272822}:not(pre)>code[class*=\"language-\"]{padding:.1em;border-radius:.3em}.token.comment,.token.prolog,.token.doctype,.token.cdata{color:slategray}.token.punctuation{color:#f8f8f2}.namespace{opacity:.7}.token.property,.token.tag,.token.constant,.token.symbol{color:#f92672}.token.boolean,.token.number{color:#ae81ff}.token.selector,.token.attr-name,.token.string,.token.builtin{color:#a6e22e}.token.operator,.token.entity,.token.url,.language-css .token.string,.style .token.string,.token.variable{color:#f8f8f2}.token.atrule,.token.attr-value{color:#e6db74}.token.keyword{color:#66d9ef}.token.regex,.token.important{color:#fd971f}.token.important{font-weight:bold}.token.entity{cursor:help}pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}pre.line-numbers>code{position:relative}.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:0;font-size:100%;left:-3.8em;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:0.8em;text-align:right}.token a{color:inherit}\n",
+			"height:",
+			"max-width",
+			"border",
+			"font",
+			"font-size",
+			"theme-color",
+			"a ",
+			"float",
+			"list",
+			"900px",
+			"padding",
+			"glyphicon",
+			"icon",
+			"glyphicons",
+			"open sans",
+			"font-family",
+			"open sans",
+			"list",
+			"$tl",
+			"width",
+			"well",
+			"done",
+			"has ",
+			"finished",
+			"end",
+			"mac",
+			"I am a mac",
+			"driver",
+			"green",
+			"hideui",
+			"import",
+			"default",
+			"# disabled",
+			"#disabled",
+			"minimal-theme",
+			"minimal",
+			"date",
+			"extraitem",
+			"~",
+			"    ",
+			"<ul class=\"like_and_reblog_buttons\">\n                            <li>{ReblogButton}</li>\n                            <li>{LikeButton}</li>\n                    </ul>",
+			"<ul class=\"like_and_reblog_buttons\">\n                            <li>{ReblogButton}</li>\n            ",
+			"<ul class=\"like_and_reblog_buttons\">\n                            <li>{ReblogButton}</li>\n                            <li>{LikeButton}</li>\n                        </ul>",
+			"<ul class=\"tumblr",
+			"*",
+			"use_graphics",
+			"icons/",
+			"icons/'",
+			"icons/",
+			"font",
+			"textonly",
+			"graphics",
+			"text",
+			"graphics",
+			"background",
+			"resolution",
+			"arrows",
+			"slash",
+			"back"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$background-color",
+			"player",
+			"ledStrip",
+			"ldrPin",
+			"",
+			"$search-tl",
+			"theme",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Users/samuel/Documents/projects/simple-landing-page"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CapacitiveSensorSketch":
+	{
+		"height": 112.0
+	},
+	"output.MP3ButtonPlayer2":
+	{
+		"height": 112.0
+	},
+	"output.MP3Shield_Library_Demo":
+	{
+		"height": 112.0
+	},
+	"output.NewPingExample":
+	{
+		"height": 112.0
+	},
+	"output.SdInfo":
+	{
+		"height": 112.0
+	},
+	"output.daphc":
+	{
+		"height": 112.0
+	},
+	"output.exec":
+	{
+		"height": 184.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.guitarCode":
+	{
+		"height": 102.0
+	},
+	"output.harpvardBridge":
+	{
+		"height": 112.0
+	},
+	"output.harpvardBridgeFinal":
+	{
+		"height": 112.0
+	},
+	"output.markdown":
+	{
+		"height": 27.0
+	},
+	"output.mp3Shield":
+	{
+		"height": 112.0
+	},
+	"output.newPing":
+	{
+		"height": 112.0
+	},
+	"output.pulseSensor":
+	{
+		"height": 112.0
+	},
+	"output.sketch":
+	{
+		"height": 118.0
+	},
+	"output.skinConductanceMeter":
+	{
+		"height": 281.0
+	},
+	"output.stino_log":
+	{
+		"height": 112.0
+	},
+	"output.strandtest":
+	{
+		"height": 112.0
+	},
+	"output.stringTouch":
+	{
+		"height": 112.0
+	},
+	"output.test":
+	{
+		"height": 112.0
+	},
+	"output.trippyGoggles":
+	{
+		"height": 112.0
+	},
+	"output.wavShieldDiagThing":
+	{
+		"height": 112.0
+	},
+	"project": "",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"varia",
+				"styles/_variables.scss"
+			],
+			[
+				"links",
+				"styles/_links.scss"
+			],
+			[
+				"base",
+				"styles/_base.scss"
+			],
+			[
+				"posts",
+				"styles/_post.scss"
+			],
+			[
+				"vari",
+				"styles/_variables.scss"
+			],
+			[
+				"post.scs",
+				"styles/_post.scss"
+			],
+			[
+				"notes",
+				"styles/_notes.scss"
+			],
+			[
+				"bod",
+				"body.min.css"
+			],
+			[
+				"",
+				"README.md"
+			],
+			[
+				"read",
+				"README.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 201.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
