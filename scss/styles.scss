@@ -2,6 +2,10 @@ $background-color: rgb(35, 35, 35);
 
 @import "animations";
 
+.done * {
+	transition: all 0.3s ease;
+}
+
 body {
 	background-image: linear-gradient(-124deg, #17E871 0%, #17E871 3%, #391DDC 100%);
 }
@@ -12,14 +16,9 @@ html, body {
 	padding: 0;
 	margin: 0;
 	width: 100%;
-	height: 100%;
+	overflow-x: hidden;
 	font-family: "Arimo", "Helvetica Neue", sans-serif;
 	color: white;
-}
-
-body {
-	overflow-y: scroll;
-	overflow-x: hidden;
 }
 
 p a {
@@ -29,12 +28,7 @@ p a {
 	
 }
 
-.done * {
-	transition: all 0.3s ease;
-}
-
 .body {
-	margin: auto;
 	text-align: center;
 	animation: fade-in 1s ease-in-out;
 }
@@ -78,7 +72,7 @@ p a {
 
 .profiles {
 	width: 80%;
-	margin: auto auto 100px;
+	margin: auto;
 	padding: 0;
 	animation: fade-in-delayed 2s ease-in-out;
 }
