@@ -7,11 +7,11 @@ $background-color: rgb(35, 35, 35);
 }
 
 body {
+	background: $background-color;
 	background-image: linear-gradient(-124deg, #17E871 0%, #17E871 3%, #391DDC 100%);
 }
 
 html, body {
-	// background: $background-color;
 	background-attachment: fixed;
 	padding: 0;
 	margin: 0;
