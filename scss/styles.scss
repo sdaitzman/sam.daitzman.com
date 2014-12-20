@@ -1,42 +1,19 @@
 $background-color: rgb(35, 35, 35);
 
-@keyframes fade-in {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
-}
+@import "animations";
 
-@keyframes fade-in-bounce {
-	0% {
-		opacity: 0;
-		transform: translateY(-100px);
-	}
-	85% {
-		opacity: 0;
-		transform: translateY(-100px);
-	}
-	90% {
-		transform: translateY(30px);
-	}
-	100% {
-		opacity: 1;
-		transform: translateY(0px);
-	}
-}
-
-* {
-	box-sizing: boder-box;
+body {
+	background-image: linear-gradient(-124deg, #17E871 0%, #17E871 3%, #391DDC 100%);
 }
 
 html, body {
-	background: $background-color;
+	// background: $background-color;
+	background-attachment: fixed;
 	padding: 0;
 	margin: 0;
 	width: 100%;
-	font-family: Oxygen, "Helvetica Neue", sans-serif;
+	height: 100%;
+	font-family: "Arimo", "Helvetica Neue", sans-serif;
 	color: white;
 }
 
@@ -45,32 +22,28 @@ body {
 	overflow-x: hidden;
 }
 
-.done * {
-	transition: all 0.3s ease;
+p a {
+	text-decoration: none;
+	color: white;
+	border-bottom: 1px solid white;
+	
 }
 
-p {
-	font-size: 42px;
-	margin: 30px;
-	@media (max-width: 600px) {
-		font-size: 22px;
-	}
-	@media (max-width: 400px) {
-		font-size: 16px;
-	}
+.done * {
+	transition: all 0.3s ease;
 }
 
 .body {
 	margin: auto;
 	text-align: center;
-	animation: fade-in 0.5s ease-in-out;
+	animation: fade-in 1s ease-in-out;
 }
 
 .title  {
-	width: 50%;
+	width: 500px;
 	text-align: center;
 	color: rgb(250, 250, 250);
-	font-size: 120px;
+	font-size: 75px;
 	font-family: "News Cycle", Verdana, sans-serif;
 	text-decoration: none;
 	@media (max-width: 600px) {
@@ -82,13 +55,32 @@ p {
 }
 
 .about-me {
-	animation: fade-in-bounce 1s ease-in-out;
+	font-size: 36px;
+	margin: 30px;
+	@media (max-width: 600px) {
+		font-size: 22px;
+	}
+	@media (max-width: 400px) {
+		font-size: 20px;
+	}
+}
+
+.long-about {
+	font-size: 22px;
+	margin: 10px 20%;
+	@media (max-width: 600px) {
+		font-size: 20px;
+	}
+	@media (max-width: 400px) {
+		font-size: 16px;
+	}
 }
 
 .profiles {
 	width: 80%;
-	margin: auto;
-	animation: fade-in-bounce 2.5s ease-in-out;
+	margin: auto auto 100px;
+	padding: 0;
+	animation: fade-in-delayed 2s ease-in-out;
 }
 
 .profile {
@@ -110,3 +102,4 @@ p {
 	background: white;
 	color: black;
 }
+
