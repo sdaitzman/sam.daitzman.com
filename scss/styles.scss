@@ -62,11 +62,14 @@ p a {
 .long-about {
 	font-size: 22px;
 	margin: 10px 20%;
+	text-align: justify;
 	@media (max-width: 600px) {
 		font-size: 20px;
+		margin: 10px 5%;
 	}
 	@media (max-width: 400px) {
 		font-size: 16px;
+		margin: 10px 5%;
 	}
 }
 
