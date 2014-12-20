@@ -51,6 +51,7 @@ p a {
 .about-me {
 	font-size: 36px;
 	margin: 30px;
+	min-height: 64px;
 	@media (max-width: 600px) {
 		font-size: 22px;
 	}
