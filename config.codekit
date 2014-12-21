@@ -1244,6 +1244,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/medium.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50071,
+		"inputAbbreviatedPath": "\/img\/medium.png",
+		"outputAbbreviatedPath": "\/img\/medium.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/nuvu.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1251,17 +1262,6 @@
 		"initialSize": 56177,
 		"inputAbbreviatedPath": "\/img\/nuvu.png",
 		"outputAbbreviatedPath": "\/img\/nuvu.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/triangle-01.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 11404,
-		"inputAbbreviatedPath": "\/img\/triangle-01.png",
-		"outputAbbreviatedPath": "\/img\/triangle-01.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
