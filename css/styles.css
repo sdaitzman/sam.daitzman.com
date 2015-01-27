@@ -62,8 +62,7 @@ p a {
   color: #201d1e;
   font-size: 75px;
   font-family: "Slabo 27px", Verdana, sans-serif;
-  text-decoration: none;
-  transform: rotate(-15deg); }
+  text-decoration: none; }
   @media (max-width: 600px) {
     .title {
       font-size: 64px; } }
