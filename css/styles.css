@@ -42,7 +42,7 @@ html, body {
   margin: 0;
   overflow-x: hidden;
   height: 100%;
-  font-family: "Vollkorn", "Helvetica Neue", sans-serif;
+  font-family: "Bitter", "Helvetica Neue", sans-serif;
   color: #201d1e; }
 
 p a {
@@ -64,7 +64,8 @@ p a {
   color: #201d1e;
   font-size: 75px;
   font-family: "Slabo 27px", Verdana, sans-serif;
-  text-decoration: none; }
+  text-decoration: none;
+  transform: rotate(-15deg); }
   @media (max-width: 600px) {
     .title {
       font-size: 64px; } }
@@ -108,8 +109,6 @@ p a {
   border-radius: 120px;
   padding: 10px;
   margin: 0; }
-  .profile:active {
-    transform: translateY(10px); }
 
 ::selection {
   background: white;
