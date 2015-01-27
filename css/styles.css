@@ -32,10 +32,6 @@
   background: url(../img/itsme.jpg) no-repeat center center;
   background-size: cover; }
 
-.body {
-  background-color: #e0bfa9;
-  padding-bottom: 20px; }
-
 html, body {
   background-attachment: fixed;
   padding: 0;
@@ -54,6 +50,8 @@ p a {
     border-bottom-color: rgba(32, 29, 30, 0.6); }
 
 .body {
+  background-color: #e0bfa9;
+  padding-bottom: 20px;
   padding-top: 30px;
   text-align: center;
   animation: fade-in 1s ease-in-out; }
