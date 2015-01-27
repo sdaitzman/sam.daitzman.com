@@ -1211,6 +1211,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/codepen alt.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27989,
+		"inputAbbreviatedPath": "\/img\/codepen alt.png",
+		"outputAbbreviatedPath": "\/img\/codepen alt.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/codepen.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1222,13 +1233,46 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/github.png": {
+	"\/img\/github alt.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 34592,
+		"inputAbbreviatedPath": "\/img\/github alt.png",
+		"outputAbbreviatedPath": "\/img\/github alt.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/github.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37034,
 		"inputAbbreviatedPath": "\/img\/github.png",
 		"outputAbbreviatedPath": "\/img\/github.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/itsme.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 186964,
+		"inputAbbreviatedPath": "\/img\/itsme.jpg",
+		"outputAbbreviatedPath": "\/img\/itsme.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/mail alt.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29713,
+		"inputAbbreviatedPath": "\/img\/mail alt.png",
+		"outputAbbreviatedPath": "\/img\/mail alt.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

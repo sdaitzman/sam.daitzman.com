@@ -1,4 +1,5 @@
-$background-color: rgb(35, 35, 35);
+$background-color: rgb(224, 191, 169);
+$text-color: rgb(32, 29, 30);
 
 @import "animations";
 
@@ -19,7 +20,8 @@ $background-color: rgb(35, 35, 35);
 }
 
 .body {
-	background-image: linear-gradient(-124deg, #17E871 0%, #17E871 3%, #391DDC 100%);
+	// background-image: linear-gradient(-124deg, #17E871 0%, #17E871 3%, #391DDC 100%);
+	background-color: rgb(224, 191, 169);
 	padding-bottom: 20px;
 }
 
@@ -30,17 +32,17 @@ html, body {
 	margin: 0;
 	overflow-x: hidden;
 	height: 100%;
-	font-family: "Source Sans Pro", "Helvetica Neue", sans-serif;
-	color: white;
+	font-family: "Vollkorn", "Helvetica Neue", sans-serif;
+	color: $text-color;
 }
 
 p a {
 	text-decoration: none;
-	color: white;
-	border-bottom: 1px solid white;
+	color: $text-color;
+	border-bottom: 1px solid $text-color;
 	&:active, :visited:active {
-		color: rgba(white, 0.6);
-		border-bottom-color: rgba(white, 0.6);
+		color: rgba($text-color, 0.6);
+		border-bottom-color: rgba($text-color, 0.6);
 	}
 }
 
@@ -53,7 +55,7 @@ p a {
 .title  {
 	width: 500px;
 	text-align: center;
-	color: rgb(250, 250, 250);
+	color: $text-color;
 	font-size: 75px;
 	font-family: "Slabo 27px", Verdana, sans-serif;
 	text-decoration: none;
@@ -68,7 +70,7 @@ p a {
 .about-me {
 	font-size: 36px;
 	margin: 30px;
-	min-height: 42px;
+	min-height: 50px;
 	@media (max-width: 600px) {
 		font-size: 22px;
 	}
@@ -104,8 +106,8 @@ p a {
 	border-radius: 120px;
 	padding: 10px;
 	margin: 0;
-	&:hover {
-		transform: scale(1.05);
+	&:active {
+		transform: translateY(10px);
 	}
 }
 
