@@ -33,7 +33,7 @@
   background-size: cover; }
 
 .body {
-  background-image: linear-gradient(-124deg, #17E871 0%, #17E871 3%, #391DDC 100%);
+  background-color: #e0bfa9;
   padding-bottom: 20px; }
 
 html, body {
@@ -42,16 +42,16 @@ html, body {
   margin: 0;
   overflow-x: hidden;
   height: 100%;
-  font-family: "Source Sans Pro", "Helvetica Neue", sans-serif;
-  color: white; }
+  font-family: "Vollkorn", "Helvetica Neue", sans-serif;
+  color: #201d1e; }
 
 p a {
   text-decoration: none;
-  color: white;
-  border-bottom: 1px solid white; }
+  color: #201d1e;
+  border-bottom: 1px solid #201d1e; }
   p a:active, p a :visited:active {
-    color: rgba(255, 255, 255, 0.6);
-    border-bottom-color: rgba(255, 255, 255, 0.6); }
+    color: rgba(32, 29, 30, 0.6);
+    border-bottom-color: rgba(32, 29, 30, 0.6); }
 
 .body {
   padding-top: 30px;
@@ -61,7 +61,7 @@ p a {
 .title {
   width: 500px;
   text-align: center;
-  color: #fafafa;
+  color: #201d1e;
   font-size: 75px;
   font-family: "Slabo 27px", Verdana, sans-serif;
   text-decoration: none; }
@@ -75,7 +75,7 @@ p a {
 .about-me {
   font-size: 36px;
   margin: 30px;
-  min-height: 42px; }
+  min-height: 50px; }
   @media (max-width: 600px) {
     .about-me {
       font-size: 22px; } }
@@ -108,8 +108,8 @@ p a {
   border-radius: 120px;
   padding: 10px;
   margin: 0; }
-  .profile:hover {
-    transform: scale(1.05); }
+  .profile:active {
+    transform: translateY(10px); }
 
 ::selection {
   background: white;
