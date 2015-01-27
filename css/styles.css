@@ -109,5 +109,5 @@ p a {
   margin: 0; }
 
 ::selection {
-  background: white;
-  color: black; }
+  background: black;
+  color: white; }
