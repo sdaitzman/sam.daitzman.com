@@ -1,7 +1,19 @@
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 @keyframes fade-in {
   from {
     opacity: 0; }
   to {
+    opacity: 1; } }
+@-webkit-keyframes fade-in-delayed {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  100% {
     opacity: 1; } }
 @keyframes fade-in-delayed {
   0% {
@@ -10,20 +22,41 @@
     opacity: 0; }
   100% {
     opacity: 1; } }
+@-webkit-keyframes fade-in-bounce {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px); }
+  85% {
+    opacity: 0;
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px); }
+  90% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); } }
 @keyframes fade-in-bounce {
   0% {
     opacity: 0;
-    transform: translateY(-100px); }
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px); }
   85% {
     opacity: 0;
-    transform: translateY(-100px); }
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px); }
   90% {
-    transform: translateY(30px); }
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px); }
   100% {
     opacity: 1;
-    transform: translateY(0px); } }
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); } }
 .done * {
-  transition: all 0.3s ease; }
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
 
 .top-img {
   display: block;
@@ -36,7 +69,6 @@ html, body {
   background-attachment: fixed;
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
   height: 100%;
   font-family: "Bitter", "Helvetica Neue", sans-serif;
   color: #201d1e; }
@@ -54,9 +86,13 @@ p a {
   padding-bottom: 20px;
   padding-top: 30px;
   text-align: center;
-  animation: fade-in 1s ease-in-out; }
+  -webkit-animation: fade-in 1s ease-in-out;
+          animation: fade-in 1s ease-in-out; }
 
 .title {
+  -webkit-transform: scale(2);
+      -ms-transform: scale(2);
+          transform: scale(2);
   width: 500px;
   text-align: center;
   color: #201d1e;
@@ -98,7 +134,8 @@ p a {
   width: 90%;
   margin: auto;
   padding: 0;
-  animation: fade-in-delayed 2s ease-in-out; }
+  -webkit-animation: fade-in-delayed 2s ease-in-out;
+          animation: fade-in-delayed 2s ease-in-out; }
 
 .profile {
   width: 120px;
@@ -107,6 +144,14 @@ p a {
   padding: 10px;
   margin: 0; }
 
+::-moz-selection {
+  background: black;
+  color: white;
+  transform: skewY(-5deg); }
+
 ::selection {
   background: black;
-  color: white; }
+  color: white;
+  -webkit-transform: skewY(-5deg);
+      -ms-transform: skewY(-5deg);
+          transform: skewY(-5deg); }
