@@ -82,6 +82,7 @@ p a {
     border-bottom-color: rgba(32, 29, 30, 0.6); }
 
 .body {
+  overflow-x: hidden;
   background-color: #e0bfa9;
   padding-bottom: 20px;
   padding-top: 30px;
