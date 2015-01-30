@@ -55,8 +55,8 @@
     -webkit-transform: translateY(0px);
             transform: translateY(0px); } }
 .done * {
-  -webkit-transition: all 0.3s ease;
-          transition: all 0.3s ease; }
+  -webkit-transition: width 0.3s ease, height 0.3s ease, padding 0.3s ease, top 0.3s ease, right 0.3s ease, bottom 0.3s ease, left 0.3s ease, -webkit-transform 0.3s ease, opacity 0.3s ease;
+          transition: width 0.3s ease, height 0.3s ease, padding 0.3s ease, top 0.3s ease, right 0.3s ease, bottom 0.3s ease, left 0.3s ease, transform 0.3s ease, opacity 0.3s ease; }
 
 .top-img {
   display: block;
@@ -78,7 +78,7 @@ p a {
   color: #201d1e;
   border-bottom: 1px solid #201d1e; }
   p a:active, p a :visited:active {
-    color: rgba(32, 29, 30, 0.6);
+    color: firebrick;
     border-bottom-color: rgba(32, 29, 30, 0.6); }
 
 .body {
@@ -144,6 +144,14 @@ p a {
   border-radius: 120px;
   padding: 10px;
   margin: 0; }
+  .profile:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1); }
+  .profile:active {
+    -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+            transform: scale(0.9); }
 
 ::-moz-selection {
   background: black;
@@ -156,3 +164,6 @@ p a {
   -webkit-transform: skewY(-5deg);
       -ms-transform: skewY(-5deg);
           transform: skewY(-5deg); }
+
+* {
+  -webkit-tap-highlight-color: transparent; }
