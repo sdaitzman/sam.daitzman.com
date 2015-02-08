@@ -1,5 +1,5 @@
-$background-color: rgb(224, 191, 169);
-$text-color: rgb(32, 29, 30);
+$background-color: lighten(rgb(224, 191, 169), 7%);
+$text-color: lighten(rgb(32, 29, 30), 10%);
 
 @import "animations";
 

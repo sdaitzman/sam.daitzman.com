@@ -71,19 +71,19 @@ html, body {
   margin: 0;
   height: 100%;
   font-family: "Bitter", "Helvetica Neue", sans-serif;
-  color: #201d1e; }
+  color: #3b3537; }
 
 p a {
   text-decoration: none;
-  color: #201d1e;
-  border-bottom: 1px solid #201d1e; }
+  color: #3b3537;
+  border-bottom: 1px solid #3b3537; }
   p a:active, p a :visited:active {
     color: firebrick;
-    border-bottom-color: rgba(32, 29, 30, 0.6); }
+    border-bottom-color: rgba(59, 53, 55, 0.6); }
 
 .body {
   overflow-x: hidden;
-  background-color: #e0bfa9;
+  background-color: #e9d3c3;
   padding-bottom: 20px;
   padding-top: 30px;
   text-align: center;
@@ -96,7 +96,7 @@ p a {
           transform: scale(2);
   width: 500px;
   text-align: center;
-  color: #201d1e;
+  color: #3b3537;
   font-size: 75px;
   font-family: "Slabo 27px", Verdana, sans-serif;
   text-decoration: none; }
