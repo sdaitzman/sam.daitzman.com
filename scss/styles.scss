@@ -36,7 +36,7 @@ p a {
 	border-bottom: 1px solid $text-color;
 	&:active, :visited:active {
 		color: firebrick;
-		border-bottom-color: rgba($text-color, 0.6);
+		border-bottom-color: firebrick;
 	}
 }
 

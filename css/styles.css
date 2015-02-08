@@ -79,7 +79,7 @@ p a {
   border-bottom: 1px solid #3b3537; }
   p a:active, p a :visited:active {
     color: firebrick;
-    border-bottom-color: rgba(59, 53, 55, 0.6); }
+    border-bottom-color: firebrick; }
 
 .body {
   overflow-x: hidden;
