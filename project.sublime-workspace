@@ -243,7 +243,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3816,
+				"buffer_size": 3914,
 				"line_ending": "Unix"
 			}
 		},
@@ -275,12 +275,20 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 400.0,
+		"height": 67.0,
 		"selected_items":
 		[
 			[
+				"gitignore",
+				"Gitignore: New gitignore"
+			],
+			[
 				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
 			],
 			[
 				"color",
@@ -321,10 +329,6 @@
 			[
 				"in",
 				"Package Control: Install Package"
-			],
-			[
-				"list",
-				"Package Control: List Packages"
 			],
 			[
 				"prett",
@@ -398,6 +402,7 @@
 	],
 	"file_history":
 	[
+		"/Users/samuel/Documents/projects/simple-landing-page/.gitignore",
 		"/Users/samuel/Documents/projects/simple-landing-page/index.html",
 		"/Users/samuel/Desktop/index.html",
 		"/Users/samuel/Documents/projects/simple-landing-page/scss/_text-glitch.scss",
@@ -524,8 +529,7 @@
 		"/Users/samuel/Downloads/tumblrthemr-1.1/index.html",
 		"/Users/samuel/Desktop/styles.css",
 		"/Users/samuel/Desktop/serial-web-terminal/index.js",
-		"/Users/samuel/Dropbox/sdaitzman.tumblr.com hosting/scripts/scripts.js",
-		"/Users/samuel/Desktop/js.js"
+		"/Users/samuel/Dropbox/sdaitzman.tumblr.com hosting/scripts/scripts.js"
 	],
 	"find":
 	{
@@ -693,15 +697,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3816,
+						"buffer_size": 3914,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								924,
-								279
+								1389,
+								1389
 							]
 						],
 						"settings":
@@ -769,7 +773,7 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 304.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -778,7 +782,7 @@
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -794,8 +798,8 @@
 						"selection":
 						[
 							[
-								547,
-								547
+								610,
+								610
 							]
 						],
 						"settings":
@@ -970,14 +974,8 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
-				},
-				{
-					"file": "img/codepen.png",
-					"semi_transient": true,
-					"stack_index": 2,
-					"type": "image"
 				},
 				{
 					"buffer": 2,
@@ -1005,7 +1003,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1021,8 +1019,8 @@
 						"selection":
 						[
 							[
-								414,
-								414
+								259,
+								259
 							]
 						],
 						"settings":
@@ -1190,14 +1188,14 @@
 							},
 							"codeintel_tooltips": "popup",
 							"sublime_auto_complete": true,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
