@@ -1,11 +1,11 @@
-# Hint.css [v1.3.3]
+# Hint.css [![npm version](https://badge.fury.io/js/hint.css.svg)](https://badge.fury.io/js/hint.css)
 *A tooltip library in CSS for your lovely websites*
 
-`hint.css` is written as a pure CSS resource using which you can create cool tooltips for your web app. It does not rely on JavaScript and rather uses **data-* attribute**, **pseudo elements**, **content property** and **CSS3 transitions** to create the tooltips. Also it uses **BEM** naming convention particularly for the modifiers.
+`hint.css` is written as a pure CSS resource using which you can create cool tooltips for your web app. It does not rely on JavaScript but rather uses **data-* attribute**, **pseudo elements**, **content property** and **CSS3 transitions** to create the tooltips. Also it uses **BEM** naming convention particularly for the modifiers.
 
 [Read more about it](http://kushagragour.in/blog/2013/02/years-first-side-project-hint/).
 
-###Try it out:
+### Try it out:
 http://kushagragour.in/lab/hint/
 
 If you find this useful and want to show some love & encouragement, I am on [Gittip](https://www.gittip.com/chinchang/).
@@ -14,7 +14,7 @@ If you find this useful and want to show some love & encouragement, I am on [Git
 
 Get the library using one of the following ways:
 
-1. **Github**
+1. **GitHub**
 
  Full build
  - [unminified] : https://raw.github.com/chinchang/hint.css/master/hint.css
@@ -30,11 +30,18 @@ Get the library using one of the following ways:
  bower install hint.css
  ```
 
-3. **CDN**
+3. **npm**
+
+ ```
+ npm install --save hint.css
+ ```
+
+4. **CDN**
 
  [http://www.jsdelivr.com/#!hint.css](http://www.jsdelivr.com/#!hint.css)
+ [https://cdnjs.com/libraries/hint.css](https://cdnjs.com/libraries/hint.css)
 
-Now include the library in the *HEAD* of your page:
+Now include the library in the ``HEAD`` tag of your page:
 
 ```html
 <link rel="stylesheet" href="hint.css"></link>
@@ -45,19 +52,12 @@ or
 <link rel="stylesheet" href="hint.min.css"></link>
 ```
 
-Any element on your page which needs to have a tooltip has to be given at least one of the position classes: `hint--top`, `hint--bottom`, `hint--left`, `hint--right` to position the tooltip.
+Now, all you need to do is give your element any position class and tooltip text using the `data-hint` attribute:
 
-```html
-Hello Sir, <span class="hint--bottom">hover me.</span>
-```
-
-The tooltip text needs to be given using the `data-hint` attribute on that element.
 
 ```html
 Hello Sir, <span class="hint--bottom" data-hint="Thank you!">hover me.</span>
 ```
-
-[ **Note**: The `hint` class is no more required and is deprecated. Tooltip is shown on elements which have the `data-hint` attribute instead.]
 
 Use it with other available modifiers in various combinations. Available modifiers:
 - `hint--error`
@@ -69,6 +69,10 @@ Use it with other available modifiers in various combinations. Available modifie
 - `hint--no-animate`
 - `hint--bounce`
 
+## Upgrading from v1.x
+
+If you are already using v1.x, you may need to tweak certain position classes because of the way tooltips are positioned in v2.
+
 ## Changing the prefix for class names
 
 Don't like BEM naming (`hint--`) or want to use your own prefix for the class names?
@@ -77,11 +81,15 @@ Simply update `src/hint-variables.scss` and change the `$prefix` variable.
 To generate the css file, please read the [contributing page](./CONTRIBUTING.md).
 
 ## Who's Using This?
-- [CSS3 Playground](http://playground.webflow.com/)
-- [BitCast](https://www.bitcast.io/)
+- [Webflow Playground](http://playground.webflow.com/)
+- [Panda chrome app](http://usepanda.com/)
 - [Tridiv](http://tridiv.com/)
 - [Tradus](http://tradus.com/)
-- [Inkpen](http://inkpen.in/)
+- [Formspree](http://formspree.io/)
+- [Stackshare](http://stackshare.io/)
+- [TypeScript Builder](http://www.typescriptbuilder.com/)
+- [Fiverr's Devflow](https://github.com/fiverr/devflow/)
+- [codeMagic](http://codemagic.gr/)
 
 Are you using **hint.css** in your awesome project too? Let us know on the [mailing list](mailto:hintcss@googlegroups.com).
 
@@ -111,7 +119,7 @@ To catch all updates and discussion, join the mailing list: **hintcss@googlegrou
 To subscribe: **hintcss+subscribe@googlegroups.com** or visit [here](https://groups.google.com/forum/?fromgroups=#!forum/hintcss).
 
 ## License
-Copyright (c) 2013 Kushagra Gour
+Copyright (c) 2013-2016 Kushagra Gour
 Licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 ## Credits
