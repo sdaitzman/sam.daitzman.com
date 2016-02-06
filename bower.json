@@ -1,0 +1,16 @@
+{
+  "name": "sdaitzman.github.io",
+  "homepage": "https://github.com/sdaitzman/sdaitzman.github.io",
+  "authors": [
+    "sdaitzman <samuel@daitzman.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "dependencies": {
+    "fastclick": "~1.0.6",
+    "hint.css": "~2.0.0",
+    "jquery.typer": "*",
+    "jquery": "^2.2.0"
+  }
+}
