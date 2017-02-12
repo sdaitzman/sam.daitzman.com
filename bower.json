@@ -11,6 +11,9 @@
     "fastclick": "~1.0.6",
     "hint.css": "~2.0.0",
     "jquery.typer": "*",
-    "jquery": "^2.2.0"
+    "jquery": "^3.1.1"
+  },
+  "resolutions": {
+    "jquery": "^3.1.1"
   }
 }

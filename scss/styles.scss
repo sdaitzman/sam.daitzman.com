@@ -1,5 +1,6 @@
-$background-color: lighten(rgb(224, 191, 169), 7%);
-$text-color: lighten(rgb(32, 29, 30), 10%);
+$background-color: lighten(rgb(224, 224, 224), 7%);
+$text-color: lighten(rgb(30, 30, 30), 10%);
+$highlight-color: firebrick;
 
 @import "animations";
 
@@ -29,9 +30,14 @@ p a {
 	text-decoration: none;
 	color: $text-color;
 	border-bottom: 1px solid $text-color;
+	&:hover, &:focus {
+		border-bottom-color: $highlight-color;
+		color: $highlight-color;
+	}
 	&:active, :visited:active {
-		color: firebrick;
-		border-bottom-color: firebrick;
+		background-color: $highlight-color;
+    color: white;
+		border-bottom-color: $highlight-color;
 	}
 }
 
