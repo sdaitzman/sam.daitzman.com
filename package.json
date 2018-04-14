@@ -1,0 +1,17 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "draggabilly": "^2.2.0",
+    "normalize.css": "^8.0.0",
+    "prefixfree": "^1.0.0",
+    "sweetalert": "^2.1.0"
+  }
+}

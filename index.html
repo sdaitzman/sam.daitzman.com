@@ -1,56 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Sam Daitzman</title>
-	<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<meta name="p:domain_verify" content="01e2d2b560ae5a45e9e3f751e43e3c4e"/>
-	<link rel="stylesheet" href="css/styles.css">
-	<link href='//fonts.googleapis.com/css?family=Slabo+27px|Bitter' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="bower_components/hint.css/hint.min.css">
-</head>
-<body>
-	<div class="top-img"></div>
-	<div class="body">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sam Daitzman</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="node_modules/prefixfree/prefixfree.min.js" charset="utf-8"></script>
+    <script src="bower_components/jquery.typer/src/jquery.typer.js" charset="utf-8"></script>
+    <script src="node_modules/draggabilly/dist/draggabilly.pkgd.min.js"></script>
+    <script src="scripts.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="body-container">
+      <header class="page-header">
+        <img class="me-photo draggable" src="./img/face.jpg" alt="">
+        <h1 class="page-title">Hi, I'm Sam.</h1>
+      </header>
+      <h2 class="love-typer">I love <span data-typer-targets="projects and research, engineering, design, the internet, AI, education, social justice, hacking, nice hacking, programming, art, gardening, hardware design, human rights, web design, biking, 3D printers, CAD, technology, 3D modeling, innovation, humans, motors, circuits, civil rights, rights">projects</span>.</h2>
+      <p class="about-me">
+        Last year, Sam Daitzman graduated from <a href="https://cambridge.nuvustudio.com">NuVu Studio</a>, an experimental design and engineering high school. This year, she is studying personalized learning systems, AI and fundamental digital skills at the <a href="https://cyber.harvard.edu/">Berkman Klein Center for Internet and Society</a> and building <a href="https://smilesha.de/">Smile Shade</a>. This fall, she will join the <a href="https://olin.edu">Olin College of Engineering</a> Class of 2022. Sam’s pronouns are she/her/hers and she is 18 years old.
+      </p>
+      <nav class="profiles">
+        <ul>
+          <li><a href="mailto:sam@daitzman.com">Email</a></li>
+          <li><a href="https://cambridge.nuvustudio.com/sam-daitzman">NuVu Portfolio</a></li>
+          <li><a href="https://github.com/sdaitzman">GitHub</a></li>
+          <li><a href="https://instagram.com/sdaitzman">Instagram</a></li>
+          <li><a href="https://twitter.com/sdaitzman">Twitter</a></li>
+          <li><a href="https://www.linkedin.com/in/samdaitzman/">LinkedIn</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57620806-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-		<a href="#" class="title"><span class="title">Sam Daitzman</span></a>
-
-		<p class="about-me">I'm Sam. I love <span class="things-i-am" data-typer-targets="nice hacking, programming, design, development, making, art, gardening, hardware design, volunteering, human rights, web design, minimalism, barefoot running, simplicity, biking, making things, improving the world, 3D printers, CAD, 3D modeling, technology, innovation, humans, helping people, motors, circuits, civil rights, rights"></span>.</p>
-
-		<p class="long-about">
-			Sam loves engineering and design, writing, research and projects across disciplines. She is a recent graduate of <a href="https://cambridge.nuvustudio.com">NuVu Studio</a>, an engineering, design and innovation school in Cambridge, Massachusetts. She studies online and at <a href="//extension.harvard.edu">Harvard</a>. She writes poetry, <a href="https://medium.com/@sdaitzman">prose</a>, lots of <a href="https://github.com/sdaitzman">code</a> and sometimes fiction. She tends to a garden featuring native plants and rare cacti. She takes lots of <a href="https://instagram.com/sdaitzman">photos</a>. She is currently working at the <a href="https://cyber.harvard.edu/">Berkman Klein Center</a> for Internet and Society at Harvard University. Next year, she will join the <a href="https://olin.edu">Olin College of Engineering</a> class of 2022. Sam has experience with 3D design and printing tech, mechanical engineering, robotics, teaching, Arduino/C, web design and development, hardware engineering and design, video and photography, writing, research, tech evangelism, software development and composing self-referential paragraphs in the third person. Sam is transgender and prefers she/her pronouns.
-		</p>
-
-		<div class="profiles">
-			<a href="https://github.com/sdaitzman" class="hint--bottom hint--bounce" data-hint="See my code on GitHub"><img class="github profile" src="img/github.png"></a>
-			<a href="https://codepen.io/sdaitzman" class="hint--bottom hint--bounce" data-hint="Check out my web demos on CodePen"><img class="codepen profile" src="img/codepen.png"></a>
-			<a href="https://cambridge.nuvustudio.com/sam-daitzman" class="hint--bottom hint--bounce" data-hint="My NuVu School Portfolio"><img class="nuvu profile" src="img/nuvu.png"></a>
-			<a href="https://sdaitzman.tumblr.com" class="hint--bottom hint--bounce" data-hint="Head to my blog"><img class="tumblr profile" src="img/tumblr.png"></a>
-			<a href="https://medium.com/@sdaitzman" class="hint--bottom hint--bounce" data-hint="See what I've written on Medium"><img class="medium profile" src="img/medium.png"></a>
-			<a href="mailto:sam@daitzman.com" class="hint--bottom hint--bounce" data-hint="Shoot me an email!"><img class="mail profile" src="img/mail.png"></a>
-
-
-		</div>
-
-		<p class="copyright">© 2017 Sam Daitzman under a <a href="LICENSE.md">CC License</a>.</p>
-
-	</div>
-
-
-<script type="text/javascript" src="js/scripts.min.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-57620806-1', 'auto');
-  ga('send', 'pageview');
-  document.addEventListener("touchstart", function(){}, true);
-</script>
-</body>
+      gtag('config', 'UA-57620806-1');
+    </script>
+  </body>
 </html>
