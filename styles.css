@@ -3,10 +3,6 @@
   to { opacity: 1;transform: translateY(0) }
 }
 
-* {
-  transition: padding 0.2s linear, margin 0.2s linear, width 0.2s linear, height 0.2s linear, font-size 0.2s linear;
-}
-
 h1, h2, span, p {
   cursor: url(./img/select.png) 15 15, auto;
 }
