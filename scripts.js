@@ -10,7 +10,9 @@ $(document).ready(function() {
 		typerInterval: 3000
 	}
 
-	$('[data-typer-targets]').typer()
+	setTimeout(function() {
+		$('[data-typer-targets]').typer()
+	}, 3000)
 
 	$('body').toggleClass('done')
 
