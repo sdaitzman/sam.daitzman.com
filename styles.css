@@ -45,7 +45,7 @@ margin: 3vw;
 .page-title {
   font: 100px "IBM Plex Sans";
   text-align: left;
-  font-weight: 300;
+  font-weight: 500;
   margin: 0;
   line-height: 1;
   align-self: center;
@@ -61,6 +61,7 @@ margin: 3vw;
 
 .about-me, .love-typer, .profiles {
   font: 30px "IBM Plex Sans";
+  font-weight: 300;
   padding-left:175px;
   padding-right: 20px;
   text-align: justify;
