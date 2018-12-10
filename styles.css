@@ -3,13 +3,8 @@
   to { opacity: 1;transform: translateY(0) }
 }
 
-h1, h2, span, p {
-  cursor: url(./img/select.png) 15 15, auto;
-}
-
 html, body {
   min-height: 100%;
-  cursor: url(./img/pointer.png) 3 3, auto;
 }
 
 ::selection {
@@ -52,7 +47,6 @@ margin: 3vw;
 }
 
 .me-photo {
-  cursor: url(./img/drag.png) 15 15, auto;;
   width: 150px;
   height: 150px;
   border-radius: 100px;
@@ -93,7 +87,6 @@ margin: 3vw;
 }
 
 a {
-  cursor: url(./img/click.png) 13 13, auto;
   text-decoration: none;
   color: black;
   border-bottom: 1px solid black;
