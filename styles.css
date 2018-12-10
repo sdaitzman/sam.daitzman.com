@@ -79,7 +79,7 @@ margin: 3vw;
 }
 
 .profiles ul li a {
-  font-style: italic;
+  font-weight: 500;
 }
 
 .profiles ul li:not(:last-child)::after {
