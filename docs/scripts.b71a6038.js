@@ -106,18 +106,21 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   return newRequire;
 })({"scripts.js":[function(require,module,exports) {
 $(document).ready(function () {
-  $.typer.options = {
-    highlightSpeed: 100,
-    typeSpeed: 200,
-    clearDelay: 500,
-    typeDelay: 200,
-    clearOnHighlight: false,
-    typerDataAttr: 'data-typer-targets',
-    typerInterval: 3000
-  };
-  setTimeout(function () {
-    $('[data-typer-targets]').typer();
-  }, 3000);
+  if ($('body').hasClass('typer-page')) {
+    $.typer.options = {
+      highlightSpeed: 100,
+      typeSpeed: 200,
+      clearDelay: 500,
+      typeDelay: 200,
+      clearOnHighlight: false,
+      typerDataAttr: 'data-typer-targets',
+      typerInterval: 3000
+    };
+    setTimeout(function () {
+      $('[data-typer-targets]').typer();
+    }, 3000);
+  }
+
   $('body').toggleClass('done');
   document.addEventListener("touchstart", function () {}, true);
 });
@@ -148,7 +151,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53977" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54024" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
