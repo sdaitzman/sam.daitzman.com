@@ -5,7 +5,7 @@
   "main": "scripts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel *.html -d docs",
+    "dev": "parcel watch *.html -d docs & cd docs && http-server -c 0.25 -p 1234",
     "build": "parcel build *.html -d docs"
   },
   "author": "",
@@ -17,6 +17,7 @@
     "sweetalert": "^2.1.0"
   },
   "devDependencies": {
+    "http-server": "^0.11.1",
     "parcel-bundler": "^1.11.0"
   }
 }
