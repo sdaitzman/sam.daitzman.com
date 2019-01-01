@@ -1,0 +1,158 @@
+@keyframes fadeIn {
+  from { opacity: 0;transform: translateY(-20px) }
+  to { opacity: 1;transform: translateY(0) }
+}
+
+html, body {
+  min-height: 100%;
+}
+
+::selection {
+  color: white;
+  background: #F74E45;
+}
+
+html {
+  animation: fadeIn 0.4s ease-out;
+  font-family: "IBM Plex Sans";
+  font-weight: 300;
+  text-align: justify;
+}
+
+body {
+  box-sizing: border-box;
+  border-left: 7vw solid #F74E45;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-container {
+margin: 3vw;
+}
+
+.page-header {
+  display: flex;
+}
+
+.page-title {
+  font: 100px "IBM Plex Sans";
+  text-align: left;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1;
+  align-self: center;
+}
+
+.me-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  margin-right: 25px;
+}
+
+.about-me, .love-typer, .profiles {
+  font: 30px "IBM Plex Sans";
+  font-weight: 300;
+  padding-left:175px;
+  padding-right: 20px;
+  text-align: justify;
+}
+
+.love-typer {
+  margin-top: 5px;
+  font-size: 50px;
+}
+
+.profiles ul {
+  padding: 0;
+  list-style: none;
+  display: block;
+  flex-direction: row;
+  line-height: 50px;
+}
+
+.profiles ul li {
+  display: inline;
+}
+
+.profiles ul li a {
+  font-weight: 500;
+}
+
+.profiles ul li:not(:last-child)::after {
+  content: " + "
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid black;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:hover, a:focus {
+  color: #F74E45;
+  border-bottom-color: #F74E45;
+}
+
+a:active {
+  color: #fbc7c4;
+  border-bottom-color: #fbc7c4;
+}
+
+@media (max-width: 850px) {
+  body {
+    justify-content: start;
+    /* border-left: 7vh solid #F74E45; */
+  }
+  .about-me, .love-typer, .profiles {
+    font-size: 18px;
+    padding: 0;
+  }
+  .page-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .me-photo {
+    width: 85px;
+    height: 85px;
+    margin-right: 5px;
+  }
+  .page-title {
+    font-size: 45px;
+    text-align: center;
+  }
+  .page-title::after {
+    top: -5px;
+  }
+  .body-container {
+    margin: 2vh 1vw;
+    padding: 10px;
+  }
+  .nav-list {
+    margin: 5px 0 25px;
+  }
+  .nav-list li {
+    border-bottom: 1px solid black;
+  }
+  .love-typer {
+    font-size: 26px;
+    text-align: center;
+    position: relative;
+  }
+  .profiles ul li {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .profiles ul li a {
+    width: 100%;
+    text-align: center;
+  }
+  .profiles ul li:not(:last-child)::after {
+    content: none;
+  }
+}

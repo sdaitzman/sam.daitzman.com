@@ -104,80 +104,222 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({"node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
-var bundleURL = null;
-
-function getBundleURLCached() {
-  if (!bundleURL) {
-    bundleURL = getBundleURL();
+})({"bower_components/jquery.typer/src/jquery.typer.js":[function(require,module,exports) {
+String.prototype.rightChars = function (n) {
+  if (n <= 0) {
+    return "";
+  } else if (n > this.length) {
+    return this;
+  } else {
+    return this.substring(this.length, this.length - n);
   }
+};
 
-  return bundleURL;
-}
+(function ($) {
+  var options = {
+    highlightSpeed: 20,
+    typeSpeed: 100,
+    clearDelay: 500,
+    typeDelay: 200,
+    clearOnHighlight: true,
+    typerDataAttr: 'data-typer-targets',
+    typerInterval: 2000
+  },
+      _highlight,
+      clearText,
+      backspace,
+      _type,
+      spanWithColor,
+      clearDelay,
+      typeDelay,
+      clearData,
+      isNumber,
+      typeWithAttribute,
+      getHighlightInterval,
+      getTypeInterval,
+      typerInterval;
 
-function getBundleURL() {
-  // Attempt to find the URL of the current script and use that as the base URL
-  try {
-    throw new Error();
-  } catch (err) {
-    var matches = ('' + err.stack).match(/(https?|file|ftp):\/\/[^)\n]+/g);
-
-    if (matches) {
-      return getBaseURL(matches[0]);
+  spanWithColor = function spanWithColor(color, backgroundColor) {
+    if (color === 'rgba(0, 0, 0, 0)') {
+      color = 'rgb(255, 255, 255)';
     }
-  }
 
-  return '/';
-}
-
-function getBaseURL(url) {
-  return ('' + url).replace(/^((?:https?|file|ftp):\/\/.+)\/[^/]+$/, '$1') + '/';
-}
-
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-},{}],"node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
-var bundle = require('./bundle-url');
-
-function updateLink(link) {
-  var newLink = link.cloneNode();
-
-  newLink.onload = function () {
-    link.remove();
+    return $('<span></span>').css('color', color).css('background-color', "#F74E45");
   };
 
-  newLink.href = link.href.split('?')[0] + '?' + Date.now();
-  link.parentNode.insertBefore(newLink, link.nextSibling);
-}
+  isNumber = function isNumber(n) {
+    return !isNaN(parseFloat(n)) && isFinite(n);
+  };
 
-var cssTimeout = null;
+  clearData = function clearData($e) {
+    $e.removeData(['typePosition', 'highlightPosition', 'leftStop', 'rightStop', 'primaryColor', 'backgroundColor', 'text', 'typing']);
+  };
 
-function reloadCSS() {
-  if (cssTimeout) {
-    return;
-  }
+  _type = function type($e) {
+    var // position = $e.data('typePosition'),
+    text = $e.data('text'),
+        oldLeft = $e.data('oldLeft'),
+        oldRight = $e.data('oldRight'); // if (!isNumber(position)) {
+    // position = $e.data('leftStop');
+    // }
 
-  cssTimeout = setTimeout(function () {
-    var links = document.querySelectorAll('link[rel="stylesheet"]');
-
-    for (var i = 0; i < links.length; i++) {
-      if (bundle.getBaseURL(links[i].href) === bundle.getBundleURL()) {
-        updateLink(links[i]);
-      }
+    if (!text || text.length === 0) {
+      clearData($e);
+      return;
     }
 
-    cssTimeout = null;
-  }, 50);
-}
+    $e.text(oldLeft + text.charAt(0) + oldRight).data({
+      oldLeft: oldLeft + text.charAt(0),
+      text: text.substring(1)
+    }); // $e.text($e.text() + text.substring(position, position + 1));
+    // $e.data('typePosition', position + 1);
 
-module.exports = reloadCSS;
-},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"node_modules/normalize.css/normalize.css":[function(require,module,exports) {
+    setTimeout(function () {
+      _type($e);
+    }, getTypeInterval());
+  };
 
-        var reloadCSS = require('_css_loader');
-        module.hot.dispose(reloadCSS);
-        module.hot.accept(reloadCSS);
-      
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+  clearText = function clearText($e) {
+    $e.find('span').remove();
+    setTimeout(function () {
+      _type($e);
+    }, typeDelay());
+  };
+
+  _highlight = function highlight($e) {
+    var position = $e.data('highlightPosition'),
+        leftText,
+        highlightedText,
+        rightText;
+
+    if (!isNumber(position)) {
+      position = $e.data('rightStop') + 1;
+    }
+
+    if (position <= $e.data('leftStop')) {
+      setTimeout(function () {
+        clearText($e);
+      }, clearDelay());
+      return;
+    }
+
+    leftText = $e.text().substring(0, position - 1);
+    highlightedText = $e.text().substring(position - 1, $e.data('rightStop') + 1);
+    rightText = $e.text().substring($e.data('rightStop') + 1);
+    $e.html(leftText).append(spanWithColor($e.data('backgroundColor'), $e.data('primaryColor')).append(highlightedText)).append(rightText);
+    $e.data('highlightPosition', position - 1);
+    setTimeout(function () {
+      return _highlight($e);
+    }, getHighlightInterval());
+  };
+
+  typeWithAttribute = function typeWithAttribute($e) {
+    var targets;
+
+    if ($e.data('typing')) {
+      return;
+    }
+
+    try {
+      targets = JSON.parse($e.attr($.typer.options.typerDataAttr)).targets;
+    } catch (e) {}
+
+    if (typeof targets === "undefined") {
+      targets = $.map($e.attr($.typer.options.typerDataAttr).split(','), function (e) {
+        return $.trim(e);
+      });
+    }
+
+    $e.typeTo(targets[Math.floor(Math.random() * targets.length)]);
+  }; // Expose our options to the world.
+
+
+  $.typer = function () {
+    return {
+      options: options
+    };
+  }();
+
+  $.extend($.typer, {
+    options: options
+  }); //-- Methods to attach to jQuery sets
+
+  $.fn.typer = function () {
+    var $elements = $(this);
+    return $elements.each(function () {
+      var $e = $(this);
+
+      if (typeof $e.attr($.typer.options.typerDataAttr) === "undefined") {
+        return;
+      }
+
+      typeWithAttribute($e);
+      setInterval(function () {
+        typeWithAttribute($e);
+      }, typerInterval());
+    });
+  };
+
+  $.fn.typeTo = function (newString) {
+    var $e = $(this),
+        currentText = $e.text(),
+        i = 0,
+        j = 0;
+
+    if (currentText === newString) {
+      console.log("Our strings our equal, nothing to type");
+      return $e;
+    }
+
+    if (currentText !== $e.html()) {
+      console.error("Typer does not work on elements with child elements.");
+      return $e;
+    }
+
+    $e.data('typing', true);
+
+    while (currentText.charAt(i) === newString.charAt(i)) {
+      i++;
+    }
+
+    while (currentText.rightChars(j) === newString.rightChars(j)) {
+      j++;
+    }
+
+    newString = newString.substring(i, newString.length - j + 1);
+    $e.data({
+      oldLeft: currentText.substring(0, i),
+      oldRight: currentText.rightChars(j - 1),
+      leftStop: i,
+      rightStop: currentText.length - j,
+      primaryColor: $e.css('color'),
+      backgroundColor: $e.css('background-color'),
+      text: newString
+    });
+
+    _highlight($e);
+
+    return $e;
+  }; //-- Helper methods. These can one day be customized further to include things like ranges of delays.
+
+
+  getHighlightInterval = function getHighlightInterval() {
+    return $.typer.options.highlightSpeed;
+  };
+
+  getTypeInterval = function getTypeInterval() {
+    return $.typer.options.typeSpeed;
+  }, clearDelay = function clearDelay() {
+    return $.typer.options.clearDelay;
+  }, typeDelay = function typeDelay() {
+    return $.typer.options.typeDelay;
+  };
+
+  typerInterval = function typerInterval() {
+    return $.typer.options.typerInterval;
+  };
+})(jQuery);
+},{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -204,7 +346,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56323" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56526" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
@@ -346,4 +488,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","bower_components/jquery.typer/src/jquery.typer.js"], null)
+//# sourceMappingURL=/jquery.typer.ee02ac0f.map
