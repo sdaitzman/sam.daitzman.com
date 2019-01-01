@@ -5,8 +5,8 @@
   "main": "scripts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel watch *.html -d docs & cd docs && http-server -c 0.25 -p 1234",
-    "build": "parcel build *.html -d docs"
+    "dev": "parcel watch *.html -d dev & cd dev && http-server -c-1 -p 1234 -o -s",
+    "build": "parcel build *.html -d docs && http-server -c-1 -p 7070 -o"
   },
   "author": "",
   "license": "ISC",
