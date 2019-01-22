@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/sdaitzman
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://sam.daitzman.com
+  * I am sdaitzman (https://keybase.io/sdaitzman) on keybase.
+  * I have a public key ASB7-C6OAVkFxOVkO6MHVG2kXSloI5RFTJuKX9HxX3F8CQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01207bf82e8e015905c4e5643ba307546da45d29682394454c9b8a5fd1f15f717c090a",
+      "host": "keybase.io",
+      "kid": "01207bf82e8e015905c4e5643ba307546da45d29682394454c9b8a5fd1f15f717c090a",
+      "uid": "d562f5799500777428b95e82671ffd19",
+      "username": "sdaitzman"
+    },
+    "merkle_root": {
+      "ctime": 1548174130,
+      "hash": "63cfc11cda5b9a65c6b954f36b30f62b83f1eec4b9bcc8760e18d0c4df769d63532e6d432233bb36889449c9621229f4a719ed71163e57e7abef5e490edfee92",
+      "hash_meta": "b1c0276b0228b2cc15f655343b5d710efb9575bd167fca8145ce86fb170600de",
+      "seqno": 4551764
+    },
+    "service": {
+      "entropy": "ABtgIiM+RzHDfYZXpXFdzXbt",
+      "hostname": "sam.daitzman.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.13.1"
+  },
+  "ctime": 1548174291,
+  "expire_in": 504576000,
+  "prev": "c922bf7a21c0836ab4f547d1d6126f3b0463384ff53f130b4dbb1b754251050c",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEge/gujgFZBcTlZDujB1RtpF0paCOURUybil/R8V9xfAkKp3BheWxvYWTESpcCCsQgySK/eiHAg2q09UfR1hJvOwRjOE/1PxMLTbsbdUJRBQzEILGAAmqk9aFBibyWUpdhiTYpINRKFqBfuS/Z/IsUDjh7AgHCo3NpZ8RARVhOY0kg62Ud+Gy4v4FpiOjuUu7M9ZVK1JLoXJTZWVJskb1JPXbGmVxNQgrm+mLyxe+8kjNR8oh/5pYVp5fnC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHDeI5lScDEoxAg7oVA6qGRr5Lwl2gsg6jHIwLti7EQVo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sdaitzman
+
+==================================================================
