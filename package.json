@@ -17,6 +17,7 @@
     "sweetalert": "^2.1.0"
   },
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "http-server": "^0.11.1",
     "parcel-bundler": "^1.11.0"
   }
