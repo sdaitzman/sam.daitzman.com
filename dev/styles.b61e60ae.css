@@ -156,3 +156,9 @@ a:active {
     content: none;
   }
 }
+
+.userway {
+  position: fixed;
+  bottom: 25px !important;
+  right: 25px !important;
+}

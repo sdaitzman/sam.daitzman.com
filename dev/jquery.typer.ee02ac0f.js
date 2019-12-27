@@ -144,7 +144,7 @@ String.prototype.rightChars = function (n) {
       color = 'rgb(255, 255, 255)';
     }
 
-    return $('<span></span>').css('color', color).css('background-color', "#F74E45");
+    return $('<span></span>').css('color', color).css('background-color', backgroundColor);
   };
 
   isNumber = function isNumber(n) {
@@ -346,7 +346,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56526" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59087" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
