@@ -158,7 +158,7 @@ a:active {
 }
 
 .userway {
-  position: fixed;
+  position: fixed !important;
   bottom: 25px !important;
   right: 25px !important;
 }
