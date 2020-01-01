@@ -1,0 +1,38 @@
+@import 'variables';
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.98)
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(1)
+    }
+}
+
+::selection {
+    color: white;
+    background: $nice-red;
+}
+
+html {
+    animation: fadeIn 0.4s ease-out;
+}
+
+body {
+    font-family: "IBM Plex Sans";
+    font-weight: 300;
+}
+
+.body-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-content {
+    position: relative;
+    max-width: 850px;
+}

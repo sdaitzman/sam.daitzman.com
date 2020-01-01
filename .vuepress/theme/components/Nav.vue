@@ -13,6 +13,7 @@
 <style scoped lang="scss">
 .nav-links {
   display: flex;
+  padding-left: 0;
 }
 .nav-links li {
   display: inline-block;
