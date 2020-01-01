@@ -1,6 +1,7 @@
 ---
 title: "Home"
 date: 2020-1-1
+layout: "Layout"
 ---
 
 # Hi, I’m Sam 👩🏻‍💻

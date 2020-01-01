@@ -25,6 +25,10 @@
   },
   "homepage": "https://github.com/sdaitzman/sam.daitzman.com#readme",
   "dependencies": {
+    "@vuepress/plugin-google-analytics": "^1.2.0",
+    "node-sass": "^4.13.0",
+    "normalize.css": "^8.0.1",
+    "sass-loader": "^8.0.0",
     "vuepress": "^1.2.0"
   }
 }
