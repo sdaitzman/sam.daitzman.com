@@ -1,0 +1,25 @@
+{
+  "name": "sam.daitzman.com",
+  "version": "2.0.0",
+  "description": "Sam Daitzman's personal website, located at https://sam.daitzman.com!",
+  "main": "index.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdaitzman/sam.daitzman.com.git"
+  },
+  "keywords": [
+    "website",
+    "portfolio",
+    "personal website",
+    "Sam Daitzman"
+  ],
+  "author": "Sam Daitzman (sam@daitzman.com)",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/sdaitzman/sam.daitzman.com/issues"
+  },
+  "homepage": "https://github.com/sdaitzman/sam.daitzman.com#readme"
+}
