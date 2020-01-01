@@ -23,9 +23,9 @@
 
 <script>
 export default {
-    name: 'Nav',
-    data() {
-        return {}
-    }
+  name: 'Nav',
+  data () {
+    return {}
+  }
 }
 </script>

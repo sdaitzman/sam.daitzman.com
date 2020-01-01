@@ -11,18 +11,17 @@
 
 <style lang="scss"> @import '../styles/base.scss'; </style>
 
-
 <style lang="scss" scoped>
 
 </style>
 
 <script>
-    import Nav from "@theme/components/Nav"
-    import 'normalize.css'
+import Nav from '@theme/components/Nav'
+import 'normalize.css'
 
-    export default {
-        components: {
-            Nav
-        }
-    }
+export default {
+  components: {
+    Nav
+  }
+}
 </script>
