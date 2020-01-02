@@ -1,45 +1,52 @@
 @import 'variables';
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: scale(0.98)
-    }
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
 
-    to {
-        opacity: 0;
-        transform: scale(1)
-    }
+  to {
+    opacity: 0;
+    transform: scale(1);
+  }
 }
 
 ::selection {
-    color: white;
-    background: $nice-red;
+  color: white;
+  background: $nice-red;
 }
 
-html {
-    animation: fadeIn 0.4s ease-out;
-}
+html { animation: fadeIn 0.4s ease-out; }
 
 body {
-    font-family: "IBM Plex Sans";
-    font-weight: 300;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
 }
 
-body, html, #app, .all-container { min-height: 100vh }
+body,
+html,
+#app,
+.all-container {
+  min-height: 100vh;
+}
 
-.all-container { border-left: 7vw solid $nice-red }
+.all-container {
+  border-left: 7vw solid $nice-red;
+}
 
 .body-container {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 .body-content {
-    position: relative;
-    max-width: 850px;
-    h1, p {
-        margin-left: $left-pad
-    }
+  position: relative;
+  max-width: 850px;
+
+  h1,
+  p {
+    margin-left: $left-pad;
+  }
 }
