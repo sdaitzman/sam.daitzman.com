@@ -22,6 +22,13 @@ module.exports = {
     'standard/object-curly-even-spacing': [2, 'either'],
     'standard/array-bracket-even-spacing': [2, 'either'],
     'standard/computed-property-even-spacing': [2, 'even'],
-    'standard/no-callback-literal': [2, ['cb', 'callback']]
+    'standard/no-callback-literal': [2, ['cb', 'callback']],
+    'vue/max-attributes-per-line': ['error', {
+      singleline: 3,
+      multiline: {
+        max: 1,
+        allowFirstLine: false
+      }
+    }]
   }
 }
