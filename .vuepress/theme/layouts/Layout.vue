@@ -1,12 +1,12 @@
 <template>
-    <div class="all-container">
-        <Nav />
-        <div class="body-container">
-            <div class="body-content">
-                <Content />
-            </div>
-        </div>
+  <div class="all-container">
+    <Nav />
+    <div class="body-container">
+      <div class="body-content">
+        <Content />
+      </div>
     </div>
+  </div>
 </template>
 
 <style lang="scss"> @import '../styles/base.scss'; </style>
