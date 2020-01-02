@@ -2,7 +2,9 @@
   <div class="all-container">
     <div class="body-container">
       <div class="body-content">
-        <Content />
+        <Transition name="slide-up">
+          <Content />
+        </Transition>
       </div>
     </div>
     <Nav />
@@ -11,6 +13,14 @@
 
 <style lang="scss">
 @import "../styles/base.scss";
+
+.slide-up-enter-active, .slide-up-leave-active {
+  transition: opacity 1.5s;
+}
+
+.slide-up-enter, .slide-up-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
 </style>
 
 <style scoped lang="scss">

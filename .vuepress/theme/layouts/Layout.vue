@@ -2,15 +2,23 @@
   <div class="all-container">
     <Nav />
     <div class="body-container">
-      <div class="body-content">
+      <transition name="fade">
         <Content />
-      </div>
+      </transition>
     </div>
   </div>
 </template>
 
 <style lang="scss">
 @import '../styles/base.scss';
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.2s ease-out;
+}
+
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
 </style>
 
 <style scoped lang="scss">
