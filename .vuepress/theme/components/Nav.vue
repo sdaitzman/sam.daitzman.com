@@ -18,8 +18,8 @@
   </ul>
 </template>
 
-<style lang="stylus">
-@require '../styles/variables'
+<style lang="scss">
+@import '../styles/variables';
 
 .nav-links, .nav-links:visited {
   display: flex;
@@ -29,7 +29,7 @@
 .nav-links li {
   display: inline-block;
   margin-right: 20px;
-  color: nice-red;
+  color: $nice-red;
 }
 
 // this is a comment!

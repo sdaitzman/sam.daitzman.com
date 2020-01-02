@@ -9,18 +9,15 @@
   </div>
 </template>
 
-<style lang="stylus" scoped>
-@require '../styles/variables'
+<style lang="scss"> @import '../styles/base.scss'; </style>
 
-.body-container
-  background nice-red
+<style lang="scss" scoped>
 
 </style>
 
 <script>
 import Nav from '@theme/components/Nav'
 import 'normalize.css'
-import '../styles/base.styl'
 
 export default {
   components: {

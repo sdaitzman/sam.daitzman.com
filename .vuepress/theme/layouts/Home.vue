@@ -1,23 +1,24 @@
 <template>
-  <div class="all-container">
-    <div class="body-container">
-      <div class="body-content">
-        <Content />
-      </div>
+    <div class="all-container">
+        <div class="body-container">
+            <div class="body-content">
+                <Content />
+            </div>
+        </div>
+        <Nav />
     </div>
-    <Nav />
-  </div>
 </template>
 
-<style scoped lang="stylus">
-@require '../styles/variables';
+<style lang="scss"> @import '../styles/base.scss'; </style>
+
+<style scoped lang="scss">
+    @import '../styles/variables.scss';
 
 </style>
 
 <script>
 import Nav from '@theme/components/Nav'
 import 'normalize.css'
-import '../styles/base'
 
 export default {
   components: {
