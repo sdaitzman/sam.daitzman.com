@@ -20,10 +20,17 @@
 
 // https://vue-loader.vuejs.org/guide/scoped-css.html#mixing-local-and-global-styles
 // stylelint-disable-next-line
-.body-content::v-deep h1 {
-  font-size: 48px;
-  margin: 0 20px 0 $left-pad;
-  font-weight: 100;
+.body-content::v-deep {
+  h1 {
+    font-size: 48px;
+    margin: 0 20px 0 $left-pad;
+    font-weight: 200;
+  }
+
+  p {
+    font-size: 24px;
+    font-weight: 200;
+  }
 }
 </style>
 
