@@ -14,16 +14,15 @@
 <style scoped lang="scss">
     @import '../styles/variables.scss';
 
-    
 </style>
 
 <script>
-    import Nav from "@theme/components/Nav"
-    import 'normalize.css'
+import Nav from '@theme/components/Nav'
+import 'normalize.css'
 
-    export default {
-        components: {
-            Nav
-        }
-    }
+export default {
+  components: {
+    Nav
+  }
+}
 </script>
