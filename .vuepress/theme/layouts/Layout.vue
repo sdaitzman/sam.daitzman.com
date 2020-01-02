@@ -13,8 +13,8 @@
 @import '../styles/base.scss';
 </style>
 
-<style lang="scss" scoped>
-
+<style scoped lang="scss">
+@import '../styles/variables'
 </style>
 
 <script>

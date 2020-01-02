@@ -25,12 +25,26 @@
 
 .nav-links {
   padding-left: $left-pad;
-}
 
-.nav-links li {
-  display: inline-block;
-  margin-right: 20px;
-  color: $nice-red;
+  li {
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 15px 7px;
+    color: white;
+    background: gray;
+
+    &::after {
+      display: inline-block;
+      content: '+';
+      width: 20px;
+      height: 20px;
+      color: black;
+      position: absolute;
+      z-index: -1;
+    }
+  }
 }
 
 // this is a comment!
