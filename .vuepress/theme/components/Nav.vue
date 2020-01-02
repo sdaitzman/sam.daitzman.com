@@ -23,6 +23,10 @@
 <style lang="scss">
 @import '../styles/variables';
 
+.nav-links {
+  padding-left: $left-pad;
+}
+
 .nav-links li {
   display: inline-block;
   margin-right: 20px;
