@@ -29,6 +29,7 @@
     "node-sass": "^4.13.0",
     "normalize.css": "^8.0.1",
     "sass-loader": "^8.0.0",
+    "typeface-source-sans-pro": "0.0.75",
     "vuepress": "^1.2.0"
   },
   "devDependencies": {
