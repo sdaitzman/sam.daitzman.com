@@ -44,7 +44,7 @@
   "stylelint": {
     "extends": "stylelint-config-standard",
     "rules": {
-      "selector-list-comma-newline-after": ["never-multi-line", "always"]
+      "selector-list-comma-newline-after": null
     }
   }
 }

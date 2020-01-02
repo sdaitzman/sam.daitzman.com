@@ -24,16 +24,13 @@ body {
   font-weight: 300;
 }
 
-body,
-html,
-#app,
-.all-container {
+#app { display: flex; }
+
+body, html, #app, .all-container {
   min-height: 100vh;
 }
 
-.all-container {
-  border-left: 7vw solid $nice-red;
-}
+.all-container { border-left: 7vw solid $nice-red; }
 
 .body-container {
   box-sizing: border-box;
@@ -45,8 +42,5 @@ html,
   position: relative;
   max-width: 850px;
 
-  h1,
-  p {
-    margin-left: $left-pad;
-  }
+  h1, p { margin-left: $left-pad; }
 }
