@@ -12,13 +12,15 @@
 <style lang="scss">
 @import '../styles/base.scss';
 
+$transition-time: 0.25s;
+
 .fade-enter-active, .fade-leave-active {
-  transition: opacity 0.5s ease, transform 0.3s ease;
+  transition: opacity $transition-time ease, transform $transition-time ease;
 }
 
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
-  transform: translateY(30px);
+  transform: translateY(10px);
 }
 </style>
 
