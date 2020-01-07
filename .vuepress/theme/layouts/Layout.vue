@@ -1,10 +1,13 @@
 <template>
-  <div class="all-container">
-    <Nav />
+  <div class="all-container" :class="{navAtBottom: $frontmatter.navAtBottom}">
+    <Nav v-if="!$frontmatter.navAtBottom" />
     <div class="body-container">
-      <transition name="fade">
-        <Content />
-      </transition>
+      <div class="body-content">
+        <transition name="fade">
+          <Content />
+        </transition>
+      </div>
+      <Nav v-if="$frontmatter.navAtBottom" />
     </div>
   </div>
 </template>
@@ -25,7 +28,30 @@ $transition-time: 0.25s;
 </style>
 
 <style scoped lang="scss">
-@import '../styles/variables'
+@import '../styles/variables';
+</style>
+
+<style scoped lang="scss">
+@import '../styles/variables';
+
+.navAtBottom {
+  .body-content { padding-top: 150px; }
+
+  // https://vue-loader.vuejs.org/guide/scoped-css.html#mixing-local-and-global-styles
+  // stylelint-disable-next-line
+  .body-content::v-deep {
+    h1 {
+      font-size: 48px;
+      margin: 0 20px 0 $left-pad;
+      font-weight: 200;
+    }
+
+    p {
+      font-size: 24px;
+      font-weight: 200;
+    }
+  }
+}
 </style>
 
 <script>
