@@ -13,11 +13,12 @@
 @import '../styles/base.scss';
 
 .fade-enter-active, .fade-leave-active {
-  transition: opacity 2s ease-out;
+  transition: opacity 0.5s ease, transform 0.3s ease;
 }
 
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
+  transform: translateY(30px);
 }
 </style>
 
