@@ -10,3 +10,5 @@ blog_index: true
 I'm studying at Olin College of Engineering, where I work with interdisciplinary teams on projects and research in fields like computing, design* and engineering ethics.
 
 This is blog!
+
+<BlogIndex />
