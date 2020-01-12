@@ -2,7 +2,6 @@
 title: "Home"
 date: 2020-1-1
 layout: "Layout"
-navAtBottom: true
 ---
 
 # Hi, I’m Sam 👩🏻‍💻

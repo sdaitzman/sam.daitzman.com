@@ -1,4 +1,6 @@
 @import 'variables';
+@import url("https://use.typekit.net/dqn3haz.css");
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400i,700,700i&display=swap');
 
 ::selection {
   color: white;
@@ -6,8 +8,10 @@
 }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
+  font-family: "Gentium Book Basic", serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: $nicegray;
 }
 
 #app { display: flex; }
@@ -22,14 +26,33 @@ body, html, #app, .all-container {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  border: 2px solid $nicegray;
   margin: 0 20px 20px;
-  min-height: calc(100% - 100px - 7px);
+  min-height: calc(100% - 200px);
 }
 
 .body-content {
-  position: relative;
   max-width: 850px;
 }
 
-.body-container h1, h2, h3, h4, h5, p { margin-left: $left-pad !important; }
+.body-container h1, h2, h3, h4, h5 {
+  font-family: 'Stratos', sans-serif;
+  font-weight: 400;
+  margin-left: $left-pad !important;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2.25rem; }
+h3 { font-size: 2rem; }
+h4 { font-size: 1.75rem; }
+h5 { font-size: 1.5rem; }
+
+.body-container p {
+  margin-left: $left-pad !important;
+}
+
+// links
+a {
+  color: $nicegray;
+  &:hover { color: $nice-red; }
+  &:active { color: rgba($nice-red, 0.3); }
+}

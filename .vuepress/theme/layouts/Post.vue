@@ -5,7 +5,7 @@
       <div class="body-content">
         <router-link to="/blog">
           <h3>
-            Back to Blog
+            « Back to Blog
           </h3>
         </router-link>
         <Content />
