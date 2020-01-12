@@ -5,5 +5,5 @@ export default ({
   siteData // site metadata
 }) => {
   // ...apply enhancements to the app
-  window.console.log('This runs in the final built app')
+  // window.console.log('This runs in the final built app')
 }

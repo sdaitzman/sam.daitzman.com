@@ -3,6 +3,11 @@
     <Nav />
     <div class="body-container">
       <div class="body-content">
+        <router-link to="/blog">
+          <h3>
+            Back to Blog
+          </h3>
+        </router-link>
         <Content />
       </div>
     </div>

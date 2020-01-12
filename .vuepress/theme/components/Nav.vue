@@ -1,5 +1,8 @@
 <template>
   <div class="nav">
+    <div class="site-title">
+      sam daitzman
+    </div>
     <ul class="nav-links">
       <li>
         <router-link class="home" to="/">
@@ -33,27 +36,49 @@
 <style lang="scss">
 @import '../styles/variables';
 
+.nav {
+  display: flex;
+  height: 200px;
+  margin: 7px 7px 0;
+}
+
+.site-title {
+  text-decoration: unset;
+  writing-mode: vertical-lr;
+  font-size: 24px;
+  border: 2px solid $nicegray;
+  border-bottom: none;
+  padding: 7px;
+  text-align: center;
+  background: $nice-red;
+  color: white;
+}
+
 .nav-links {
-  padding-left: $left-pad;
+  margin: 0;
   display: flex;
   list-style-type: none;
+  padding-left: 0;
 
   a {
-    display: inline-block;
+    display: inline-flex;
     font-size: 24px;
-    border-radius: 5px;
     margin-right: 20px;
     padding: 15px 7px;
-    color: white;
-    background: gray;
     text-decoration: none;
+    text-shadow: 2px 0 white, -2px 0 white, 0 0.2px white;
     &.router-link-exact-active { font-weight: 400; }
 
-    &.home { background: #5ab165; }
-    &.blog { background: #e55b4e; }
-    &.resume { background: #133496; }
-    &.portfolio { background: #4f1dc1; }
-    &.utilities { background: #8a8a8a; }
+    &::after {
+      content: '';
+      border-bottom: 1px solid black;
+      display: box;
+      box-sizing: border-box;
+      width: 100%;
+      position: relative;
+      top: -4px;
+      z-index: -3;
+    }
   }
 }
 
