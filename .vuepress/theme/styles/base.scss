@@ -82,6 +82,8 @@ a {
 .me-laptop {
   max-width: 80px;
   max-height: 80px;
+  @media (max-width: 800px) { height: 72px; }
+  @media (max-width: 500px) { height: 48px; }
 }
 
 .profiles ul {
