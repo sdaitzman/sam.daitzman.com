@@ -64,10 +64,13 @@ h2, .site-title { font-weight: 400; }
   padding: 12px;
   align-items: center;
   flex: 1;
+  flex-wrap: wrap;
+  @media (max-width: 500px) { justify-content: center; }
 
   li {
     display: inline-flex;
     height: 30px;
+    padding: 18px 0;
 
     a, h2 {
       color: $nicegray;
