@@ -21,16 +21,9 @@
         </router-link>
       </li>
       <li>
-        <router-link class="resume" to="/resume/">
+        <router-link class="now" to="/now/">
           <h2>
-            Resumé
-          </h2>
-        </router-link>
-      </li>
-      <li>
-        <router-link class="utilities" to="/utilities/">
-          <h2>
-            Utilities
+            Now
           </h2>
         </router-link>
       </li>
@@ -51,12 +44,14 @@
 h2, .site-title { font-weight: 400; }
 
 .site-title {
+  border: 5px solid transparent;
   font-size: 32px;
   padding: 20px;
   text-align: center;
   background: $nice-red;
   color: white;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 .nav-links {
@@ -77,15 +72,22 @@ h2, .site-title { font-weight: 400; }
       position: relative;
       display: inline-flex;
       font-size: 28px;
-      margin: 0;
-      text-shadow: 2px 0 white, -2px 0 white, 0 0.2px white;
+      margin: 0 5px;
       transition: transform 0.2s ease, margin 0.2s ease, color 0.3s ease;
 
       &.router-link-active {
         $shift: 0.5px;
         transform: translateY(-3px);
         margin: 0 20px;
-        h2 { font-weight: 700; }
+
+        h2 {
+          font-weight: 700;
+          margin-left: 0;
+        }
+
+        &.blog::before { content: '📝'; }
+        &.portfolio::before { content: '🖼'; }
+        &.now::before { content: '👩🏻‍💻'; }
       }
 
       &:active {

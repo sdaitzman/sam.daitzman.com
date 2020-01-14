@@ -19,6 +19,7 @@ body, html, #app, .all-container {
   min-height: 100vh;
   width: 100%;
   box-sizing: border-box;
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
 .body-container {
@@ -36,7 +37,7 @@ body, html, #app, .all-container {
 h1, h2, h3, h4, h5 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 700;
-  margin-left: $left-pad !important;
+  margin-left: $left-pad;
 }
 
 h1 { font-size: 2.5rem; }
@@ -82,4 +83,14 @@ a {
 // page: portfolio
 .portfolio .body-content {
   max-width: unset;
+}
+
+// page: now
+.now.all-container {
+  .site-title {
+    border: 5px solid white;
+  }
+  background: $nicegray;
+  color: white;
+  .nav-links li h2 { color: white; }
 }

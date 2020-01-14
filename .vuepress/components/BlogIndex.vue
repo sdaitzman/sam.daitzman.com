@@ -14,7 +14,7 @@
 
           <p>
             <router-link :to="post.path">
-              Read more
+              Read more »
             </router-link>
           </p>
         </div>
@@ -30,8 +30,15 @@
   padding: 20px 0;
   margin: 20px $left-pad;
   box-sizing: border-box;
-  &:hover { background: $light-gray; }
-  &:active { background: darken($light-gray, 5%); }
+
+  &:hover {
+    background: $light-gray;
+    a { color: $nice-red; }
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .post-link {

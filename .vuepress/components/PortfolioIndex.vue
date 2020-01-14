@@ -34,7 +34,7 @@
   box-sizing: border-box;
   width: 300px;
   height: 350px;
-  h2, p { margin: 5px 0 !important; }
+  h2, p { margin: 5px 0; }
 
   h2 {
     font-size: 20px;
