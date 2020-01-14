@@ -91,17 +91,17 @@ h2, .site-title { font-weight: 400; }
           margin-left: 0;
         }
 
-        &.blog::before { content: '📝'; }
-        &.portfolio::before { content: '🖼'; }
-
-        &.now::before {
+        &.blog::before, &.portfolio::before, &.now::before {
+          background-position: center;
           content: '';
           width: 28px;
           height: 28px;
-          background-image: url('/1264.png');
-          background-position: center;
           background-size: cover;
         }
+
+        &.blog::before { background-image: url('/1725.png'); }
+        &.portfolio::before { background-image: url('/1916.png'); }
+        &.now::before { background-image: url('/1264.png'); }
       }
 
       &:active {
