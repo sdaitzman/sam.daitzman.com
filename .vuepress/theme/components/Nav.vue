@@ -90,7 +90,15 @@ h2, .site-title { font-weight: 400; }
 
         &.blog::before { content: '📝'; }
         &.portfolio::before { content: '🖼'; }
-        &.now::before { content: '👩🏻‍💻'; }
+
+        &.now::before {
+          content: '';
+          width: 28px;
+          height: 28px;
+          background-image: url('/1264.png');
+          background-position: center;
+          background-size: cover;
+        }
       }
 
       &:active {
