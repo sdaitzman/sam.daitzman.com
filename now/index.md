@@ -6,7 +6,7 @@ date: 2020-1-1
 This page tells you a rough overview of what I'm currently working on.
 
 # Studying
-Currently at Olin College of Engineering studying design & computing. Current courses:
+Currently at Olin College of Engineering studying design & computation. Current courses:
 - Software Design
 - Software Systems
 - Neurotechnology, Brains and Machines
