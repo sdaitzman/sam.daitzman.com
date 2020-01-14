@@ -25,16 +25,26 @@
 @import '../theme/styles/variables';
 
 .portfolio-container {
-  display: grid;
+  display: flex;
 }
-
-p, .project-tile h2 { margin: 5px 0 !important; }
 
 .project-tile {
   padding: 0;
   margin: 20px $left-pad;
   box-sizing: border-box;
   width: 300px;
+  height: 350px;
+  h2, p { margin: 5px 0 !important; }
+
+  h2 {
+    font-size: 20px;
+    height: 30px;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 18px;
+  }
 }
 
 .post-link {
