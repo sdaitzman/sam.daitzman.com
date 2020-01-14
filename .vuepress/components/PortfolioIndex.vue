@@ -26,6 +26,7 @@
 
 .portfolio-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .project-tile {
@@ -33,7 +34,7 @@
   margin: 20px $left-pad;
   box-sizing: border-box;
   width: 300px;
-  height: 350px;
+  // height: 350px;
   h2, p { margin: 5px 0; }
 
   h2 {

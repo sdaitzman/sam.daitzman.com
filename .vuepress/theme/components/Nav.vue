@@ -39,6 +39,7 @@
   margin: 20px 20px 0;
   flex-direction: row;
   a { text-decoration: none; }
+  @media (max-width: 700px) { flex-direction: column; }
 }
 
 h2, .site-title { font-weight: 400; }
@@ -52,6 +53,7 @@ h2, .site-title { font-weight: 400; }
   color: white;
   text-decoration: none;
   box-sizing: border-box;
+  @media (max-width: 700px) { display: inline-flex; }
 }
 
 .nav-links {

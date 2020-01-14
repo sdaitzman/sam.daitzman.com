@@ -46,7 +46,8 @@
     "extends": "stylelint-config-standard",
     "rules": {
       "selector-list-comma-newline-after": null,
-      "declaration-empty-line-before": null
+      "declaration-empty-line-before": null,
+      "at-rule-empty-line-before": null
     }
   }
 }
