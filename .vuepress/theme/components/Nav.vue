@@ -76,6 +76,7 @@ h2, .site-title { font-weight: 400; }
       font-size: 28px;
       margin: 0 5px;
       transition: transform 0.2s ease, margin 0.2s ease, color 0.3s ease;
+      will-change: transform, margin;
 
       &.router-link-active {
         $shift: 0.5px;
