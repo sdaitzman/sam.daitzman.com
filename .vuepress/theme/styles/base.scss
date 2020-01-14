@@ -75,14 +75,31 @@ a {
 
   .body-container {
     justify-content: center;
+    @media (max-width: 500px) { justify-content: flex-start; }
   }
 }
 
-.profile-photo {
-  display: inline;
+.profiles ul {
+  padding: 0;
+  list-style: none;
+  display: block;
+  flex-direction: row;
+  line-height: 50px;
   margin-left: $left-pad;
-  width: 100px;
-  height: 100px;
+}
+
+.profiles ul li {
+  display: inline;
+}
+
+.profiles ul li a {
+  font: 18px $sans;
+  font-weight: 500;
+}
+
+.profiles ul li:not(:last-child)::after {
+  content: " // ";
+  font: 18px $sans;
 }
 
 // page: portfolio
