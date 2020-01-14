@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Sam Daitzman',
+  title: '🌱 Sam Daitzman',
   plugins: [
     [
       '@vuepress/google-analytics',
