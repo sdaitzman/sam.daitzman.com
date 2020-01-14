@@ -53,6 +53,7 @@ h2, .site-title { font-weight: 400; }
   color: white;
   text-decoration: none;
   box-sizing: border-box;
+  &:active { opacity: 0.7; }
   @media (max-width: 700px) { display: inline-flex; }
 }
 
