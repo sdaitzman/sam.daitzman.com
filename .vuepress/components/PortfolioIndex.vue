@@ -2,23 +2,13 @@
 <template>
   <div>
     <div v-for="post in posts" :key="post.frontmatter.title">
-      <router-link class="post-link" :to="post.path">
-        <div class="project-tile">
-          <h2>
-            <router-link :to="post.path">
-              {{ post.frontmatter.title }}
-            </router-link>
-          </h2>
+      <div class="project-tile">
+        <h2>
+          {{ post.frontmatter.title }}
+        </h2>
 
-          <p>{{ post.frontmatter.description }}</p>
-
-          <p>
-            <router-link :to="post.path">
-              Read more
-            </router-link>
-          </p>
-        </div>
-      </router-link>
+        <p>{{ post.frontmatter.description }}</p>
+      </div>
     </div>
   </div>
 </template>
@@ -29,11 +19,9 @@
 .project-tile {
   background: $light-gray;
   padding: 20px 0;
-  margin: 20px 0;
+  margin: 20px $left-pad;
   box-sizing: border-box;
   width: 250px;
-  &:hover { background: darken($light-gray, 5%); }
-  &:active { background: darken($light-gray, 10%); }
 }
 
 .post-link {

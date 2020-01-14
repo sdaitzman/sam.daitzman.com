@@ -1,5 +1,5 @@
 <template>
-  <div class="all-container">
+  <div class="all-container" :class="$page.title.toLowerCase()">
     <Nav />
     <div class="body-container">
       <div class="body-content">

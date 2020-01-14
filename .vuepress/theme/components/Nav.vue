@@ -1,36 +1,44 @@
 <template>
   <div class="nav">
     <router-link to="/">
-      <div class="site-title">
-        sam daitzman
-      </div>
+      <h1 class="site-title">
+        Sam Daitzman
+      </h1>
     </router-link>
     <ul class="nav-links">
       <li>
         <router-link class="blog" to="/blog/">
-          Blog
+          <h2>
+            Blog
+          </h2>
         </router-link>
       </li>
       <li>
         <router-link class="portfolio" to="/portfolio/">
-          Portfolio
+          <h2>
+            Portfolio
+          </h2>
         </router-link>
       </li>
       <li>
         <router-link class="resume" to="/resume/">
-          Resumé
+          <h2>
+            Resumé
+          </h2>
         </router-link>
       </li>
       <li>
         <router-link class="utilities" to="/utilities/">
-          Utilities
+          <h2>
+            Utilities
+          </h2>
         </router-link>
       </li>
     </ul>
   </div>
 </template>
 
-<style lang="scss">
+<style scoped lang="scss">
 @import '../styles/variables';
 
 .nav {
@@ -40,9 +48,9 @@
   a { text-decoration: none; }
 }
 
+h2, .site-title { font-weight: 400; }
+
 .site-title {
-  font-family: Stratos;
-  text-decoration: unset;
   font-size: 32px;
   padding: 20px;
   text-align: center;
@@ -52,7 +60,6 @@
 }
 
 .nav-links {
-  font-family: 'Stratos-Lights';
   margin: 0;
   display: flex;
   flex-direction: row;
@@ -65,20 +72,20 @@
     display: inline-flex;
     height: 30px;
 
-    a {
+    a, h2 {
       color: $nicegray;
       position: relative;
       display: inline-flex;
       font-size: 28px;
-      margin: 0 6px;
+      margin: 0;
       text-shadow: 2px 0 white, -2px 0 white, 0 0.2px white;
       transition: transform 0.2s ease, margin 0.2s ease, color 0.3s ease;
 
       &.router-link-active {
         $shift: 0.5px;
-        font-weight: 700;
         transform: translateY(-3px);
         margin: 0 20px;
+        h2 { font-weight: 700; }
       }
 
       &:active {

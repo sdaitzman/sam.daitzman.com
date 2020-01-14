@@ -27,12 +27,11 @@
 @import '../theme/styles/variables';
 
 .blog-post {
-  background: $light-gray;
   padding: 20px 0;
-  margin: 20px 0;
+  margin: 20px $left-pad;
   box-sizing: border-box;
-  &:hover { background: darken($light-gray, 5%); }
-  &:active { background: darken($light-gray, 10%); }
+  &:hover { background: $light-gray; }
+  &:active { background: darken($light-gray, 5%); }
 }
 
 .post-link {
