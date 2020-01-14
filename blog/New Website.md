@@ -4,6 +4,8 @@ date: 2020-1-13
 description:
     I just launched my new website.
 layout: Post
+mathjax:
+  presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 ---
 
 # New Website
@@ -18,3 +20,8 @@ let testFunction = (name) => {
     window.console.info(name)
 }
 ```
+
+I can also type math with TeX-style syntax, which gets converted into inline math like $\rho=\frac{m}{l*w*h}$ or block math like this:
+
+$$\frac {\partial^r} {\partial \omega^r} \left(\frac {y^{\omega}} {\omega}\right) 
+= \left(\frac {y^{\omega}} {\omega}\right) \left\{(\log y)^r + \sum_{i=1}^r \frac {(-1)^i r \cdots (r-i+1) (\log y)^{r-i}} {\omega^i} \right\}$$

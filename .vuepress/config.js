@@ -6,6 +6,14 @@ module.exports = {
       {
         ga: 'UA-57620806-1' // UA-00000000-0
       }
+    ], [
+      'vuepress-plugin-mathjax',
+      {
+        target: 'svg',
+        macros: {
+          '*': '\\times'
+        }
+      }
     ]
   ],
   markdown: {

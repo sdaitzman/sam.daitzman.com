@@ -30,7 +30,8 @@
     "normalize.css": "^8.0.1",
     "sass-loader": "^8.0.0",
     "typeface-source-sans-pro": "0.0.75",
-    "vuepress": "^1.2.0"
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-mathjax": "^1.2.8"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
