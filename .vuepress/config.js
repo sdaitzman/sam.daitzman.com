@@ -14,5 +14,6 @@ module.exports = {
       permalinkBefore: true,
       permalinkSymbol: '#'
     }
+    // lineNumbers: true
   }
 }

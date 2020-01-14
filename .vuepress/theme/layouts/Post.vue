@@ -4,7 +4,7 @@
     <div class="body-container">
       <div class="body-content">
         <router-link to="/blog">
-          <h3>
+          <h3 class="return">
             « Back to Blog
           </h3>
         </router-link>
@@ -27,10 +27,21 @@ $transition-time: 0.25s;
   opacity: 0;
   transform: translateY(10px);
 }
+
+@import '../styles/prism';
+
+pre[class*="language-"] {
+  margin: $left-pad;
+}
+
 </style>
 
 <style scoped lang="scss">
 @import '../styles/variables';
+
+.return {
+  font-size: 20px;
+}
 </style>
 
 <script>
