@@ -84,6 +84,11 @@ h2, .site-title { font-weight: 400; }
       transition: transform 0.2s ease, margin 0.2s ease, color 0.3s ease;
       will-change: transform, margin;
 
+      &:active {
+        color: rgba(black, 0.3);
+        transition: none;
+      }
+
       &.router-link-active {
         $shift: 0.5px;
         transform: translateY(-3px);
@@ -106,11 +111,6 @@ h2, .site-title { font-weight: 400; }
         &.blog::before { background-image: url('/1725.png'); }
         &.portfolio::before { background-image: url('/1916.png'); }
         &.now::before { background-image: url('/1264.png'); }
-      }
-
-      &:active {
-        color: rgba(black, 0.3);
-        transition: none;
       }
     }
   }
