@@ -66,7 +66,6 @@ h2, .site-title { font-weight: 400; }
   align-items: center;
   flex: 1;
   flex-wrap: wrap;
-  @media (max-width: 500px) { justify-content: center; }
 
   li {
     display: inline-flex;
