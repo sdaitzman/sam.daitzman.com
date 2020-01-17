@@ -67,6 +67,11 @@ h2, .site-title { font-weight: 400; }
   flex: 1;
   flex-wrap: wrap;
 
+  @media (max-width: 450px) {
+    justify-content: center;
+    .now h2 { margin: 0 90px; }
+  }
+
   li {
     display: inline-flex;
     height: 30px;
