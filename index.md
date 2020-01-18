@@ -11,7 +11,6 @@ I'm studying at <a href="https://www.olin.edu">Olin College of Engineering</a>. 
 <nav class="profiles">
         <ul>
           <li><a href="mailto:sam@daitzman.com">EMAIL</a></li>
-          <li><router-link to="/portfolio">PORTFOLIO</router-link></li>
           <li><a href="https://github.com/sdaitzman">GITHUB</a></li>
           <li><a href="https://instagram.com/sdaitzman">INSTAGRAM</a></li>
           <li><a href="https://twitter.com/sdaitzman">TWITTER</a></li>
