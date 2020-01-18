@@ -1,8 +1,6 @@
 <template>
   <div class="all-container" :class="$page.title.toLowerCase()">
     <Nav />
-    <font-awesome-icon icon="user-secret" />
-    <font-awesome-icon icon="user-secret" />
 
     <div class="body-container">
       <div class="body-content">
@@ -38,8 +36,11 @@ import 'typeface-source-sans-pro'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 
-import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
-library.add(faUserSecret)
+import { faEnvelope as fasEnvelop } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
+import { faGithub, faInstagram, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+
+library.add(faEnvelope, fasEnvelop, faGithub, faInstagram, faTwitter, faLinkedin)
 
 export default {
   components: {

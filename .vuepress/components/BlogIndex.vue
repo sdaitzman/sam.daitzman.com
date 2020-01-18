@@ -4,12 +4,14 @@
     <div v-for="post in posts" :key="post.frontmatter.title">
       <router-link class="post-link" :to="post.path">
         <div class="blog-post">
-          <h2>
+          <h2 class="post-title">
             <router-link :to="post.path">
               {{ post.frontmatter.title }}
             </router-link>
           </h2>
-
+          <p class="post-date">
+            {{ formatDate(post.frontmatter.date) }}
+          </p>
           <p>{{ post.frontmatter.description }}</p>
 
           <p>
@@ -25,6 +27,10 @@
 
 <style lang="scss" scoped>
 @import '../theme/styles/variables';
+
+.post-title {
+  margin: 0 $left-pad;
+}
 
 .blog-post {
   padding: 20px 0;
@@ -45,9 +51,17 @@
   text-decoration: none;
   color: unset;
 }
+
+.post-date {
+  color: $mid-gray;
+  margin: 0 $left-pad;
+  font-style: italic;
+}
 </style>
 
 <script>
+import moment from 'moment'
+
 export default {
   computed: {
     posts () {
@@ -56,6 +70,11 @@ export default {
         .sort(
           (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
         )
+    }
+  },
+  methods: {
+    formatDate (date) {
+      return moment(date).format('MMM Do, YYYY')
     }
   }
 }

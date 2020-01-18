@@ -1,6 +1,6 @@
 ---
 title: New Website
-date: 2020-1-13
+date: 2020-01-13
 description:
     I just launched my new website.
 layout: Post

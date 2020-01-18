@@ -8,6 +8,9 @@
             « Back to Blog
           </h3>
         </router-link>
+        <p class="post-date">
+          {{ formatDate($page.frontmatter.date) }}
+        </p>
         <Content />
       </div>
     </div>
@@ -39,18 +42,34 @@ pre[class*="language-"] {
 <style scoped lang="scss">
 @import '../styles/variables';
 
+.body-content >>>h1 {
+  color: pink !important;
+}
+
+.post-date {
+  color: $mid-gray;
+  margin: 0 $left-pad;
+  font-style: italic;
+}
+
 .return {
   font-size: 20px;
 }
 </style>
 
 <script>
+import moment from 'moment'
 import Nav from '@theme/components/Nav'
 import 'normalize.css'
 import 'typeface-source-sans-pro'
 export default {
   components: {
     Nav
+  },
+  methods: {
+    formatDate (date) {
+      return moment(date).format('MMM Do, YYYY')
+    }
   }
 }
 </script>

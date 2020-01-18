@@ -102,13 +102,12 @@ a {
 }
 
 .profiles ul li a {
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 0 3px;
   font: 18px $sans;
   font-weight: 500;
-}
-
-.profiles ul li:not(:last-child)::after {
-  content: " // ";
-  font: 18px $sans;
+  svg { margin-right: 3px; }
 }
 
 // page: portfolio
