@@ -1,6 +1,9 @@
 <template>
   <div class="all-container" :class="$page.title.toLowerCase()">
     <Nav />
+    <font-awesome-icon icon="user-secret" />
+    <font-awesome-icon icon="user-secret" />
+
     <div class="body-container">
       <div class="body-content">
         <Content />
@@ -32,6 +35,12 @@ $transition-time: 0.25s;
 import Nav from '@theme/components/Nav'
 import 'normalize.css'
 import 'typeface-source-sans-pro'
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+
+import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
+library.add(faUserSecret)
+
 export default {
   components: {
     Nav
