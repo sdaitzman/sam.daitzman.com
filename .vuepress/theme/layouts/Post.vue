@@ -42,10 +42,6 @@ pre[class*="language-"] {
 <style scoped lang="scss">
 @import '../styles/variables';
 
-.body-content >>>h1 {
-  color: pink !important;
-}
-
 .post-date {
   color: $mid-gray;
   margin: 0 $left-pad;
