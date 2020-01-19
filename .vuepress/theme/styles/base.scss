@@ -88,28 +88,6 @@ a {
   @media (max-width: 415px) { height: 36px; }
 }
 
-.profiles ul {
-  padding: 0;
-  list-style: none;
-  display: block;
-  flex-direction: row;
-  line-height: 50px;
-  margin-left: $left-pad;
-}
-
-.profiles ul li {
-  display: inline;
-}
-
-.profiles ul li a {
-  white-space: nowrap;
-  text-decoration: none;
-  padding: 0 3px;
-  font: 18px $sans;
-  font-weight: 500;
-  svg { margin-right: 3px; }
-}
-
 // page: portfolio
 .portfolio .body-content {
   max-width: unset;
