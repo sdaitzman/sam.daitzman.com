@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -8,7 +7,6 @@ export default ({
 }) => {
   // ...apply enhancements to the app
   window.document.addEventListener('touchstart', () => {}, false)
-  Vue.component('font-awesome-icon', FontAwesomeIcon)
 
   // window.console.log('This runs in the final built app')
 }
