@@ -32,7 +32,17 @@ body, html, #app, .all-container {
 
 .body-content {
   max-width: 850px;
-  img { max-width: 100%; }
+
+  img {
+    max-width: 100%;
+
+    & + em {
+      color: $mid-gray;
+      font: 16px 'IBM Plex Sans', sans-serif;
+      font-style: normal;
+      margin-bottom: 15px;
+    }
+  }
 }
 
 h1, h2, h3, h4, h5 {
