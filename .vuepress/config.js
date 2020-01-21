@@ -21,6 +21,9 @@ module.exports = {
       permalink: false,
       permalinkBefore: true,
       permalinkSymbol: '#'
+    },
+    extendMarkdown: md => {
+      md.use(require('@centerforopenscience/markdown-it-imsize'))
     }
     // lineNumbers: true
   }
