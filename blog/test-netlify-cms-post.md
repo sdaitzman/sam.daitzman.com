@@ -7,4 +7,4 @@ This is a blog post!!
 
 **Hello world**
 
-![this is an image!](/uploads/Screen Shot 2020-01-22 at 7.45.01 AM.png "and this is its title")
+![this is an image!](/uploads/screen.png "and this is its title")
