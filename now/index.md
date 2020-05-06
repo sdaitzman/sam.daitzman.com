@@ -5,6 +5,10 @@ date: 2020-1-1
 
 This page tells you a rough overview of what I'm currently working on and how busy I am.
 
+# How busy am I?
+- Until May 9: extremely (finals, facilitating workshops)
+- May 9 - ?: lots of free non-working time, ready to take on some new projects
+
 # Studying
 Currently at Olin College of Engineering studying design & computation. Current courses:
 - Data Structures and Algorithms
