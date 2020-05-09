@@ -36,7 +36,7 @@ Photo:
 
 I built an AirTable database to track projects and interest. As a student organizing team, we wanted to allow participants to take ownership over campus. All stakeholders could express interest or commitment to specific projects through an open form. I linked the AirTable gallery to our Slack, which allowed for rich discussion on each project.
 
-![Build Week Slack inline discussion](/uploads/build_week_slack.png)
+![Build Week Slack inline discussion](/uploads/build_week_slack.png =400)
 
 ## How'd it go?
 
