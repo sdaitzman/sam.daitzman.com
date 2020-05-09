@@ -13,7 +13,7 @@
       <img v-else-if="post.frontmatter.img" :src="getImgUrl(post.frontmatter.img)" alt="">
 
       <div v-if="post.frontmatter.tags" class="tags">
-        {{ post.frontmatter.tags }}
+        {{ post.frontmatter.tags.join(', ') }}
       </div>
 
       <p>{{ post.frontmatter.description }}</p>

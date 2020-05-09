@@ -6,5 +6,7 @@ description:
 layout: Project
 img: 'assistive_guitar_device.jpg'
 tags:
-    design, accessibility, mechatronics
+    - design
+    - accessibility
+    - mechatronics
 ---

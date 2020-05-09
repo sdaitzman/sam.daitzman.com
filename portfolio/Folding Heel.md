@@ -6,5 +6,7 @@ description:
 layout: Project
 img: 'high_heel.gif'
 tags:
-    mechanical engineering, fabrication, parametric design
+    - mechanical engineering
+    - fabrication
+    - parametric design
 ---

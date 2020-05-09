@@ -6,5 +6,7 @@ description:
 layout: Project
 img: 'falafel_cart.png'
 tags:
-    mechnical engineering, branding, visual design
+    - mechnical engineering
+    - branding
+    - visual design
 ---

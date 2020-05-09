@@ -6,5 +6,7 @@ description:
 layout: Project
 img: 'polyplant.png'
 tags:
-    robotics, electrical engineering, control theory
+    - robotics
+    - electrical engineering
+    - control theory
 ---
