@@ -27,6 +27,7 @@
 .portfolio-container {
   display: flex;
   flex-wrap: wrap;
+  max-width: 1200px;
 }
 
 .project-tile {
