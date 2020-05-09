@@ -25,6 +25,16 @@
 <style lang="scss">
 @import '../styles/base.scss';
 
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  30% { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.body-content {
+  animation: fadeIn 0.4s ease;
+}
+
 $transition-time: 0.25s;
 
 .fade-enter-active, .fade-leave-active {
