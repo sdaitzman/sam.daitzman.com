@@ -51,6 +51,10 @@ pre[class*="language-"] {
 .return {
   font-size: 20px;
 }
+
+// constrains iframes to not overflow on mobile
+iframe { max-width: 90vw; }
+
 </style>
 
 <script>
