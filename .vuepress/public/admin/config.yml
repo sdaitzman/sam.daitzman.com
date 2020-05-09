@@ -20,3 +20,18 @@ collections:
       # - {label: "Featured Image", name: "thumbnail", widget: "image"}
       # - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "portfolio" # Used in routes, e.g., /admin/collections/blog
+    label: "Portfolio" # Used in the UI
+    folder: "portfolio" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md. Supports {{year}}, {{month}}, {{day}}
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "Project"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      # - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      # - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Image", name: "img", widget: "image"}
+      - {label: "Tags", name: "tags", widget: "string"}
