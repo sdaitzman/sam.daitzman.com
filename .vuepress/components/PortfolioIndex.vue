@@ -80,6 +80,7 @@ export default {
   },
   methods: {
     getImgUrl (pic) {
+      if (pic.startsWith('/uploads/')) return pic
       return require('../../portfolio/img/' + pic)
     }
   }
