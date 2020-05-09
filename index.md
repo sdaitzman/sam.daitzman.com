@@ -8,6 +8,8 @@ layout: "Layout"
 
 I'm studying at <a href="https://www.olin.edu">Olin College of Engineering</a>. I work with interdisciplinary teams on projects and research in fields like computing, design and engineering ethics.
 
+You can see my [resume](/Sam%20Daitzman%20Resume.pdf) for more, or [schedule a meeting](/schedule) with me.
+
 <Profiles/>
 
 
