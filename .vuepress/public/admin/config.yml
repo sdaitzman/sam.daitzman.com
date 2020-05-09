@@ -31,7 +31,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "Project"}
-      - {label: "Link (appears on project title)", name: "link", widget: "text"}
+      - {label: "Link (appears on project title)", name: "link", widget: "string"}
       - {label: "Image", name: "img", widget: "image"}
       - {label: "iFrame (replaces image)", name: "iframe", widget: "text"}
       - {label: "Tags", name: "tags", widget: "list"}
