@@ -6,7 +6,7 @@ description: This stair-climbing robot is able to rapidly traverse multiple
   safe.
 layout: Project
 link: http://poe.olin.edu/2019/strawstairies/
-img: /uploads/animation.gif
+img: /uploads/climbing.gif
 tags:
   - robotics
   - system engineering
