@@ -2,7 +2,7 @@
   <div class="all-container">
     <Nav />
     <div class="body-container">
-      <div class="body-content">
+      <div class="body-content post">
         <router-link to="/blog">
           <h3 class="return">
             « Back to Blog
@@ -37,6 +37,9 @@ pre[class*="language-"] {
   margin: $left-pad;
 }
 
+// constrains iframes to not overflow on mobile
+.post iframe { max-width: 90vw; }
+
 </style>
 
 <style scoped lang="scss">
@@ -51,9 +54,6 @@ pre[class*="language-"] {
 .return {
   font-size: 20px;
 }
-
-// constrains iframes to not overflow on mobile
-iframe { max-width: 90vw; }
 
 </style>
 
