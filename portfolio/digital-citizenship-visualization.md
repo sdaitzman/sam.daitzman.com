@@ -1,5 +1,5 @@
 ---
-title: Digital Citizenship+ Visualization
+title: Digital Citizenship+
 date: 2020-03-20T14:07:01.581Z
 description: Working with the Youth and Media group at the Berkman Klein Center
   of Harvard, I created a now-published visualization of 17 curricular areas
@@ -9,5 +9,5 @@ link: https://cyber.harvard.edu/publication/2020/youth-and-digital-citizenship-p
 img: /uploads/digitalcitizenship.png
 tags:
   - graphic design
-  - ""
+  - research
 ---
