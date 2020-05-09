@@ -1,6 +1,6 @@
 ---
 title: 3D Print Diagnoser
-date: 2019-12-01T15:16:45.384Z
+date: 2020-05-09T14:22:17.003Z
 description: I designed and benchmarked a reliable algorithm that detects 3D
   print failures by analyzing FFT frequency patterns in printhead oscillation.
 layout: Project
