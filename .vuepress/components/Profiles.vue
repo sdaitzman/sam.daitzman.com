@@ -7,7 +7,7 @@
         <li><a href="https://instagram.com/sdaitzman"><font-awesome-icon :icon="['fab', 'instagram']" />INSTAGRAM</a></li>
         <li><a href="https://twitter.com/sdaitzman"><font-awesome-icon :icon="['fab', 'twitter']" />TWITTER</a></li>
         <li><a href="https://www.linkedin.com/in/samdaitzman/"><font-awesome-icon :icon="['fab', 'linkedin']" />LINKEDIN</a></li>
-        <li><a href="https://ring.inkering.com/"><img src="/ring.png" alt=""> WEBRING </a></li>
+        <li><a href="https://ring.inkering.com/?from=https://sam.daitzman.com"><img src="/ring.png" alt=""> WEBRING </a></li>
       </ul>
     </nav>
   </div>
