@@ -12,19 +12,9 @@ This page tells you a rough overview of what I'm currently working on and how bu
 - Summer 2020: available and seeking internship or consulting projects
 
 # Studying
-Currently at Olin College of Engineering studying design & computation. Courses last semester:
-- Data Structures and Algorithms
-- Software Systems
-- Neurotechnology, Brains and Machines
-- User-Oriented Collaborative Design
-- Public Interest Technology Clinic (PInT)
-- Experimental human-computer interface project
+Currently at Olin College of Engineering studying design & computation. Sample courses: Data Structures & Algorithms, Design for Manufacturing, Software Systems, User-Oriented Collaborative Design, Quantitative Engineering Analysis.
 
-Upcoming courses:
-- Design for Manufacturing
-- Biology for Engineers
-- Discrete Math
-- Weaving the Future
+[Full courses list →](courses.md)
 
 # Summer Research
 Interdisciplinary summer research program with a professor at Olin. My team will be working on optimization techniques, accessible math communication, and sustainability.
