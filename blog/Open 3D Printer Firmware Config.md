@@ -1,6 +1,6 @@
 ---
 title: Open 3D Printer Config
-date: 2020-08-08
+date: 2021-01-22
 description:
     All-open-source 3D printing upgrades across hardware, firmware, slicing and networking.
 layout: Post
