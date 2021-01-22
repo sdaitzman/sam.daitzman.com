@@ -8,12 +8,22 @@ date: 2020-8-7
 # Courses
 This is the selection of courses I've taken so far at Olin.
 
-## Fall 2020
+## Spring 2020
 *upcoming*
+- Six Books that Changed the World
+- Science Fiction and Historical Context
+- Grand Challenge Scholars Program
+- Context and Consequences
+- Sustainable Design
+- Affordable Design and Entrepreneurship
+
+## Fall 2020
 - Weaving the Future
 - Design for Manufacturing
 - Discrete Math
 - Biology: What an Engineer Needs to Know and Why
+- Building a Community Computing Collaborative
+- Independent Study: Designing & Building a 3D-Printed Apple Cider Press
 
 ## Spring 2020
 - Independent Study w/ Erhardt Graeff: Public Interest Technology
