@@ -7,6 +7,7 @@
         <Content />
       </div>
     </div>
+    <script src="https://kit.fontawesome.com/ab9d8096cd.js" crossorigin="anonymous" />
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
     <script>
       if (window.netlifyIdentity) {

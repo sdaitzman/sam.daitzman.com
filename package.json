@@ -26,12 +26,6 @@
   "homepage": "https://github.com/sdaitzman/sam.daitzman.com#readme",
   "dependencies": {
     "@centerforopenscience/markdown-it-imsize": "^2.0.1",
-    "@fortawesome/fontawesome-svg-core": "^1.2.34",
-    "@fortawesome/free-brands-svg-icons": "^5.15.2",
-    "@fortawesome/free-regular-svg-icons": "^5.15.2",
-    "@fortawesome/free-solid-svg-icons": "^5.15.2",
-    "@fortawesome/vue-fontawesome": "^0.1.10",
-    "@vuepress/plugin-google-analytics": "^1.8.0",
     "moment": "^2.29.1",
     "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
