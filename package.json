@@ -27,21 +27,21 @@
   "dependencies": {
     "@centerforopenscience/markdown-it-imsize": "^2.0.1",
     "moment": "^2.29.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^5.0.0",
     "normalize.css": "^8.0.1",
     "sass-loader": "^10.1.1",
-    "typeface-source-sans-pro": "1.1.5",
+    "typeface-source-sans-pro": "1.1.13",
     "vuepress": "^1.8.0",
     "vuepress-plugin-mathjax": "^1.2.8"
   },
   "devDependencies": {
     "eslint": "^7.18.0",
-    "eslint-config-standard": "^14.1.1",
+    "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.1.0",
-    "eslint-plugin-vue": "^6.2.2",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-vue": "^7.5.0",
     "stylelint-config-standard": "^20.0.0"
   },
   "stylelint": {
