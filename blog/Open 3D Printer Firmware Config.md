@@ -6,7 +6,6 @@ description:
 layout: Post
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
-draft: true
 ---
 
 # Open 3D Printer Config
@@ -22,8 +21,8 @@ Around the beginning of quarantine, I decided to get a new 3D printer to replace
 
 Of course, the software makes as large a difference as the hardware. With some careful configuration tweaks, I've made the printer significantly more useful.
 
-- Enabling the BLTouch, which required patching the board support files to correct the pinout of the E3 DIP
-- Switching to sensorless homing, and optimizing the homing procedure to reduce strain on the timing belts (including tuning the homing sensitivity)
+- Enabling the [BLTouch](https://www.antclabs.com/bltouch), which required patching the board support files to correct the pinout of the E3 DIP
+- Switching to no-endstop homing (using the upgraded steppers' stall detection), and optimizing the homing procedure to reduce strain on the timing belts but run faster (including tuning the homing sensitivity)
 - Patching the build configuration to use the hidden extra 256k of flash storage on the SKR Mini E3 DIP
 - Switching to software PWM to reduce fan noise
 - Switching to an improved Z-leveling interface, which greatly simplifies bed leveling
@@ -40,11 +39,6 @@ Of course, the software makes as large a difference as the hardware. With some c
 - As a consequence of this, enabling completely wireless firmware flashing over the local network
 - Modifying the automatic bed leveling to leave room for clips at the edge of the build plate
 - Significantly improving the speed and reliability of the automatic bed leveling
+- Adding a "You Wouldn't Download a Car" image bootscreen
 
-
-```js
-let testFunction = (name) => {
-    window.alert(name)
-    window.console.info(name)
-}
-```
+You can see my final [firmware build](https://github.com/sdaitzman/marlin) continuously updating as I merge new features.
