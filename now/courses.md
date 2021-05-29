@@ -15,7 +15,8 @@ This is the selection of courses I've taken so far at Olin.
 - Affordable Design and Entrepreneurship Capstone
 - Tell the Story of What You Make
 
-## Spring 2020
+## Spring 2021
+
 - Six Books that Changed the World
 - Grand Challenge Scholars Program
 - Context and Consequences
