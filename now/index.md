@@ -7,7 +7,7 @@ This page tells you a rough overview of what I'm currently working on and how bu
 
 # How busy am I?
 - Summer 2020: full-time busy, available only for weekend consulting projects and similar.
-- Fall 2021: studying at Olin College, moderate availability for consulting projects.
+- Fall 2021: studying at Olin College, moderate availability.
 
 # Studying
 Currently at Olin College of Engineering studying design & computation. My major is in Human-Centered Product Design. Sample courses: Data Structures & Algorithms, Design for Manufacturing, Software Systems, User-Oriented Collaborative Design, Quantitative Engineering Analysis, Creativity Practicum.
