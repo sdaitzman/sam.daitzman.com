@@ -7,10 +7,15 @@
     <script src="https://unpkg.com/medium-zoom@1.0.6/dist/medium-zoom.min.js" />
 
     <div class="body-container">
-      <div class="body-content">
+      <div class="creatures-body-content">
         <Content />
       </div>
     </div>
+    <script>
+      $(document).ready(() => {
+      mediumZoom('img')
+      })
+    </script>
   </div>
 </template>
 
@@ -29,7 +34,6 @@
 import 'normalize.css'
 import 'fontsource-libre-baskerville'
 import mediumZoom from 'medium-zoom'
-import 'lazysizes'
 
 export default {
   components: {
@@ -39,12 +43,12 @@ export default {
     mediumZoom('img')
   },
   updated () {
-    mediumZoom('img')
     var msnry = new Masonry('.grid', {
       itemSelector: '.grid-img',
       columnWidth: 200,
       fitWidth: true
     })
+    mediumZoom('img')
   }
 }
 </script>
