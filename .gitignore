@@ -182,3 +182,6 @@ $RECYCLE.BIN/
 
 # Local Netlify folder
 .netlify
+
+# VSC config
+.vscode/settings.json
