@@ -4,6 +4,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js" />
     <script src="https://www.unpkg.com/jquery@3.6.0/dist/jquery.min.js" />
+    <script src="https://unpkg.com/medium-zoom@1.0.6/dist/medium-zoom.min.js" />
 
     <div class="body-container">
       <div class="body-content">
