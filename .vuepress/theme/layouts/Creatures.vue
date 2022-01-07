@@ -12,7 +12,7 @@
       </div>
     </div>
     <script>
-      $(document).ready(() => {
+      $(document).ready(function() {
       mediumZoom('img')
       })
     </script>
