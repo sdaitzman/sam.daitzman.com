@@ -6,109 +6,313 @@ layout: "Creatures"
 
 # Sam & Creatures Digital Edition
 
-<div class="photos">
+<div class="photos grid">
 
-![A photo of Sam Daitzman and a creature](./img/Creature1.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature2.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature3.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature4.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature5.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature6.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature7.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature8.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature9.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature10.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature11.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature12.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature13.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature14.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature15.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature16.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature17.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature18.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature19.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature20.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature21.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature22.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature23.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature24.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature25.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature26.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature27.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature28.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature29.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature30.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature31.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature32.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature33.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature34.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature35.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature36.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature37.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature38.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature39.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature40.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature41.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature42.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature43.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature44.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature45.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature46.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature47.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature48.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature49.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature50.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature51.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature52.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature53.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature54.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature55.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature56.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature57.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature58.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature59.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature60.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature61.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature62.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature63.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature64.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature65.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature66.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature67.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature68.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature69.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature70.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature71.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature72.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature73.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature74.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature75.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature76.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature77.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature78.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature79.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature80.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature81.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature82.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature83.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature84.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature85.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature86.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature87.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature88.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature89.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature90.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature91.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature92.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature93.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature94.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature95.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature96.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature97.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature98.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature99.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature100.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature101.jpeg)
-![A photo of Sam Daitzman and a creature](./img/Creature102.jpeg)
+<div class='grid-img'>
+	<img src='./img/Creature1.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature2.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature3.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature4.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature5.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature6.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature7.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature8.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature9.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature10.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature11.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature12.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature13.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature14.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature15.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature16.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature17.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature18.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature19.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature20.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature21.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature22.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature23.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature24.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature25.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature26.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature27.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature28.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature29.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature30.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature31.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature32.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature33.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature34.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature35.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature36.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature37.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature38.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature39.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature40.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature41.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature42.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature43.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature44.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature45.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature46.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature47.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature48.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature49.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature50.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature51.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature52.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature53.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature54.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature55.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature56.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature57.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature58.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature59.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature60.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature61.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature62.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature63.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature64.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature65.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature66.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature67.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature68.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature69.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature70.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature71.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature72.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature73.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature74.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature75.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature76.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature77.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature78.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature79.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature80.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature81.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature82.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature83.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature84.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature85.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature86.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature87.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature88.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature89.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature90.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature91.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature92.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature93.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature94.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature95.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature96.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature97.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature98.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature99.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature100.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature101.jpeg'/>
+</div>
+<div class='grid-img'>
+	<img src='./img/Creature102.jpeg'/>
+</div>
 
 </div>
