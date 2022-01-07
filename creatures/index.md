@@ -6,6 +6,8 @@ layout: "Creatures"
 
 # Sam & Creatures Digital Edition
 
+[Google Photos album version](https://bit.ly/samcreatures)
+
 <div class="photos grid">
 
 <div class='grid-img'>
