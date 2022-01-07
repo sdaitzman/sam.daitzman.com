@@ -9,12 +9,17 @@ date: 2020-8-7
 
 This is the selection of courses I've taken so far at Olin.
 
-## Fall 2021
+## Spring 2022
 *upcoming*
 
+- Affordable Design and Entrepreneurship Capstone: Rights & Privacy
+- User Experience Design
+- Anti-Carceral Feminism @ Wellesley College
+
+## Fall 2021
 - Machine Learning
 - Fundamentals of Machine Shop Operations
-- Affordable Design and Entrepreneurship Capstone
+- Affordable Design and Entrepreneurship Capstone: Rights & Privacy
 - Tell the Story of What You Make
 
 ## Spring 2021
