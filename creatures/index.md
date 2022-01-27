@@ -167,25 +167,10 @@ layout: "Creatures"
 	<img src='./img/Creature52.jpeg'/>
 </div>
 <div class='grid-img'>
-	<img src='./img/Creature53.jpeg'/>
-</div>
-<div class='grid-img'>
-	<img src='./img/Creature54.jpeg'/>
-</div>
-<div class='grid-img'>
-	<img src='./img/Creature55.jpeg'/>
-</div>
-<div class='grid-img'>
 	<img src='./img/Creature56.jpeg'/>
 </div>
 <div class='grid-img'>
 	<img src='./img/Creature57.jpeg'/>
-</div>
-<div class='grid-img'>
-	<img src='./img/Creature58.jpeg'/>
-</div>
-<div class='grid-img'>
-	<img src='./img/Creature59.jpeg'/>
 </div>
 <div class='grid-img'>
 	<img src='./img/Creature60.jpeg'/>
