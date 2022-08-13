@@ -7,20 +7,20 @@ date: 2020-8-7
 
 # Courses
 
-This is the selection of courses I've taken so far at Olin.
+This is the selection of courses I took at Olin.
 
 ## Spring 2022
-*upcoming*
-
 - Affordable Design and Entrepreneurship Capstone: Rights & Privacy
 - User Experience Design
-- Anti-Carceral Feminism @ Wellesley College
+- Anti-Carceral Feminism Seminar @ Wellesley College
+- Co-Curricular: Growing Edible Mushrooms
 
 ## Fall 2021
 - Machine Learning
 - Fundamentals of Machine Shop Operations
 - Affordable Design and Entrepreneurship Capstone: Rights & Privacy
 - Tell the Story of What You Make
+- 1-cred Passionate Pursuit: Human-Computer Interface Devices
 
 ## Spring 2021
 
