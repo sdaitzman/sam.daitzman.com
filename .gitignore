@@ -185,3 +185,6 @@ $RECYCLE.BIN/
 
 # VSC config
 .vscode/settings.json
+
+# node_modules backups
+node_modules.bak
