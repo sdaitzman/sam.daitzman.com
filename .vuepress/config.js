@@ -26,5 +26,8 @@ module.exports = {
       md.use(require('@centerforopenscience/markdown-it-imsize'))
     }
     // lineNumbers: true
-  }
+  },
+  head: [
+    ['link', { rel: 'me', href: 'https://mastodon.social/@sdaitzman' }]
+  ]
 }
